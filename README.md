@@ -1,6 +1,6 @@
-# [McHacks 8](https://2021.mchacks.ca)
+# [McHacks 9](https://2022.mchacks.ca)
 
-This repository contains the code behind the static site of McHacks 8.
+This repository contains the code behind the static site of McHacks 9.
 
 ## Setup
 
