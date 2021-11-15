@@ -1,9 +1,10 @@
 import styled from "styled-components"
+import * as styleVars from "../variable"
 
 export const Container = styled.nav`
   z-index: 2;
   height: 9rem;
-  background-color: white;
+  background-color: ${styleVars.hackHeroTopBlue};
   position: fixed;
   top: 0;
   left: 0;

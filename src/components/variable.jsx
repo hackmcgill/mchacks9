@@ -20,6 +20,9 @@ export const hackBlack20 = "#d2d2d2"
 export const hackBlack10 = "#e9e9e9"
 export const hackBlack5 = "#f4f4f4"
 export const hackWhite = "#fff"
+//below are colors for mchacks9
+export const hackHeroTopBlue = "#46AAE1"
+export const hackHeroBottomBlue = "#46AAE1"
 
 // global colors
 export const globalColorText = hackBlack70
