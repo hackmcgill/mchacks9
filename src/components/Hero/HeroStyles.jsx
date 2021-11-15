@@ -11,21 +11,23 @@ export const HeroStyles = styled.section`
   margin-bottom: 148px;
   z-index: 1;
   top: 50px;
+  background-color: ${styleVars.hackHeroBottomBlue};
+  color: ${styleVars.hackHeroBottomBlue};
 
   .hero__heading {
-    text-align: left;
+    text-align: center;
     margin: auto;
     font-size: 3.875em;
     font-weight: normal;
-    color: ${styleVars.colorHackRed};
+    color: ${styleVars.hackWhite};
     position: relative;
   }
 
   .hero__topsubheading {
     font-size: 1.875em;
     font-weight: 400;
-    text-align: left;
-    color: ${styleVars.hackBlack};
+    text-align: center;
+    color: ${styleVars.hackWhite};
     margin-top: 0;
     margin-bottom: -1.6rem;
   }
@@ -33,8 +35,8 @@ export const HeroStyles = styled.section`
   .hero__subheading {
     font-size: 1.25em;
     font-weight: 400;
-    text-align: left;
-    color: ${styleVars.hackBlack60};
+    text-align: center;
+    color: ${styleVars.hackWhite};
     margin-top: 1rem;
     margin-bottom: 0;
     font-family: "Brown", san-serif;
@@ -43,12 +45,12 @@ export const HeroStyles = styled.section`
   .hero__cta {
     font-size: 1.8rem;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
   }
 
   .hero__email {
     font-weight: 400;
-    text-align: left;
+    text-align: center;
     margin-bottom: 1.2rem;
     margin-top: 4.8rem;
     display: block;
@@ -58,12 +60,12 @@ export const HeroStyles = styled.section`
   }
 
   .hero__illustrations {
-    position: absolute;
-    top: -18px;
-    right: 34px;
+    position: center;
+    heught: 100%;
     width: 1173px;
     z-index: -2;
   }
+ 
 
   @media only screen and (min-width: 1078px) and (max-width: 1399px) {
     max-width: 1280px;
