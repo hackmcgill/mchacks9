@@ -17,7 +17,7 @@ export const Container = styled.nav`
 
   &.has-border {
     background-color: ${styleVars.darkBlue};
-    box-shadow: 0 2px 6px 3px ${styleVars.darkBlue}55;
+    box-shadow: 0 2px 6px 3px ${styleVars.darkBlue}66;
   }
 `
 
