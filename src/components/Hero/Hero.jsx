@@ -8,8 +8,11 @@ import Button from "./Button"
 import SignUpForm from "./SignUpForm"
 
 import MountainsImg from "../../assets/images/designs/mountains.svg"
+import GridImg from "../../assets/images/designs/grid.svg"
 import McHacksImg from "../../assets/images/designs/mchacks9-hero-logo.png"
 import ArrowImg from "../../assets/images/designs/arrow.svg"
+
+import * as styleVars from "../variable"
 
 const Livesite = () => {
   window.location = "https://mchacks.ca/live"
@@ -20,7 +23,7 @@ const Livesite = () => {
 // }
 
 const Hero = () => (
-  <>
+  <div style={{background: styleVars.lightBlue}}>
     <HeroStyles>
       <div className="hero__container">
         <img
@@ -45,10 +48,14 @@ const Hero = () => (
       <img
         className="hero__bottom-border-img"
         src={MountainsImg}
-        alt="Background"
+        alt="Background image"
       />
     </HeroStyles>
-  </>
+    <img
+      style={{width: '100%', zIndex: 1}}
+      src={GridImg}
+    />
+  </div>
 )
 
 export default Hero

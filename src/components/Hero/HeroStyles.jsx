@@ -11,7 +11,7 @@ export const HeroStyles = styled.section`
   text-align: center;
 
   .hero__container {
-    padding: 128px 144px;
+    padding: 96px 0;
     padding-top: 192px;
   }
 
@@ -70,7 +70,7 @@ export const HeroStyles = styled.section`
     text-align: center;
     width: 101%;
     z-index: -2;
-    margin-bottom: -10px;
+    margin-bottom: -7px;
   }
  
 
