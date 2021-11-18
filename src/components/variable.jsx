@@ -7,6 +7,12 @@ export const colorPurpleLight = "#5C63AB19"
 export const colorPurplePale = "#D1D5FF"
 export const colorHackYellow = "#ffd081"
 export const colorHackTeal = "#48DEE2"
+export const buttonColor = "#FFB260"
+export const buttonColorText = "#02365E" // Please also give a suggestion for hover text.
+export const buttonColorHover = "#FFB260" // Please give a suggestion for a hover colour.
+export const backgroundGradientStart = "#2B99D6"
+export const backgroundGradientEnd = "#0084D0"
+export const textColor = "#E1F3FF"
 export const purple = "#5C63AB"
 export const purpleLight = "#5C63AB19"
 export const blue = "#0069FF"
@@ -30,9 +36,7 @@ export const yellow = "#FFB260"
 export const darkYellow = "#FA9018"
 
 // global colors
-export const globalColorText = hackBlack70
-export const globalColorBg = hackWhite
-export const globalColorPrimary = colorHackRed
+export const globalColorPrimary = hackWhite
 
 // screen breakpoint sizes
 export const smUp = "768px"

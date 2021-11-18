@@ -6,7 +6,7 @@ export const Text = styled.div`
   font-size: 16px;
 
   h2 {
-    color: ${styleVars.colorHackRed};
+    color: ${styleVars.hackWhite};
     font-size: 36px;
     font-weight: 400;
     margin-top: 0;
@@ -14,7 +14,7 @@ export const Text = styled.div`
   }
 
   p {
-    color: ${styleVars.hackBlack80};
+    color: ${styleVars.textColor};
     margin-top: 0;
     margin-bottom: 32px;
   }
