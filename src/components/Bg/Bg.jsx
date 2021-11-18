@@ -1,14 +1,14 @@
 import React from "react"
 
 import BgStyles from "./BgStyles"
-import CordStyles from "./CordStyles"
+import BoxGradientStyles from "./BoxGradientStyles"
 
-import CordImg from "../../assets/images/designs/cord.svg"
+import BoxGradientImg from "../../assets/images/designs/sponsor-gradient.svg"
 
 const Bg = ({ children }) => (
   <BgStyles>
     {children}
-    <CordStyles src={CordImg} />
+    <BoxGradientStyles src={BoxGradientImg} />
   </BgStyles>
 )
 
