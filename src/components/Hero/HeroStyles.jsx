@@ -2,38 +2,36 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const HeroStyles = styled.section`
-  max-width: 1440px;
-  margin: auto;
-
-  position: relative;
   padding: 128px 144px;
-  margin-top: 120px;
-  margin-bottom: 148px;
+  padding-top: 192px;
+
   z-index: 1;
-  top: 50px;
-  background-color: ${styleVars.hackHeroBottomBlue};
+  background-color: ${styleVars.darkBlue};
+  background:  linear-gradient(to bottom, ${styleVars.darkBlue}, ${styleVars.lightBlue});
   color: ${styleVars.hackHeroBottomBlue};
 
+  text-align: center;
+
   .hero__heading {
-    text-align: center;
-    margin: auto;
-    font-size: 3.875em;
-    font-weight: normal;
-    color: ${styleVars.hackWhite};
-    position: relative;
+    display: none; /* Leave in h1 for SEO */
+  }
+
+  .hero__heading-image {
+    width: 520px;
+    margin-bottom: -32px;
   }
 
   .hero__topsubheading {
-    font-size: 1.875em;
+    font-size: 24px;
     font-weight: 400;
     text-align: center;
     color: ${styleVars.hackWhite};
     margin-top: 0;
-    margin-bottom: -1.6rem;
+    margin-bottom: 16px;
   }
 
   .hero__subheading {
-    font-size: 1.25em;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
     color: ${styleVars.hackWhite};

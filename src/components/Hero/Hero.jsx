@@ -24,22 +24,18 @@ const Livesite = () => {
 
 const Hero = () => (
   <>
-    {/* <img
-      src={McHacksImg}
-      style={{ width: "100%", marginBottom: "-9px" }}
-      alt="Background"
-    /> */}
     <HeroStyles>
-    <img
-      src={McHacksImg}
-      style={{ width: "70%", marginBottom: "-9px" }}
-      alt="Background"
-    />
+      <img
+        className="hero__heading-image"
+        src={McHacksImg}
+        alt="McHacks"
+      />
+      <h1 class="hero__heading">
+        McHacks
+      </h1>
       <h2 class="hero__topsubheading">McGill University · Jan 29-31, 2022</h2>
       <div class="hero-header">
-        {/* <h1 class="hero__heading" style={{ display: "center" }}>
-          McHacks
-        </h1> */}
+        {/*  */}
         {/* <ArrowStyles src={ArrowImg} />
         <ArrowStyles src={ArrowImg} style={{ left: 25 }} /> */}
       </div>
