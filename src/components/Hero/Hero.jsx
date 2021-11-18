@@ -7,10 +7,8 @@ import Buildings from "./Buildings"
 import Button from "./Button"
 import SignUpForm from "./SignUpForm"
 
-import BuildingImg from "../../assets/images/designs/buildings.svg"
+import MountainsImg from "../../assets/images/designs/mountains.svg"
 import McHacksImg from "../../assets/images/designs/mchacks9-hero-logo.png"
-import GridImg from "../../assets/images/designs/grid.svg"
-import RoadImg from "../../assets/images/designs/road.svg"
 import ArrowImg from "../../assets/images/designs/arrow.svg"
 
 const Livesite = () => {
@@ -24,29 +22,31 @@ const Livesite = () => {
 const Hero = () => (
   <>
     <HeroStyles>
+      <div className="hero__container">
+        <img
+          className="hero__heading-image"
+          src={McHacksImg}
+          alt="McHacks"
+        />
+        <h1 className="hero__heading">
+          McHacks
+        </h1>
+        <h2 className="hero__topsubheading">McGill University · Jan 29-31, 2022</h2>
+        <div className="hero-header">
+          {/*  */}
+          {/* <ArrowStyles src={ArrowImg} />
+          <ArrowStyles src={ArrowImg} style={{ left: 25 }} /> */}
+        </div>
+        <p className="hero__subheading">Sign up for updates on McHacks. No spam, we promise.</p>
+        <div className="hero__email">
+          <SignUpForm/>
+        </div>
+      </div>
       <img
-        className="hero__heading-image"
-        src={McHacksImg}
-        alt="McHacks"
+        className="hero__bottom-border-img"
+        src={MountainsImg}
+        alt="Background"
       />
-      <h1 className="hero__heading">
-        McHacks
-      </h1>
-      <h2 className="hero__topsubheading">McGill University · Jan 29-31, 2022</h2>
-      <div className="hero-header">
-        {/*  */}
-        {/* <ArrowStyles src={ArrowImg} />
-        <ArrowStyles src={ArrowImg} style={{ left: 25 }} /> */}
-      </div>
-      <p className="hero__subheading">Sign up for updates on McHacks. No spam, we promise.</p>
-      <div className="hero__email">
-        <SignUpForm/>
-      </div>
-    <img
-      src={GridImg}
-      style={{ width: "100%", marginBottom: "-9px" }}
-      alt="Background"
-    />
     </HeroStyles>
   </>
 )

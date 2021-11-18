@@ -2,8 +2,6 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const HeroStyles = styled.section`
-  padding: 128px 144px;
-  padding-top: 192px;
 
   z-index: 1;
   background-color: ${styleVars.darkBlue};
@@ -11,6 +9,11 @@ export const HeroStyles = styled.section`
   color: ${styleVars.hackHeroBottomBlue};
 
   text-align: center;
+
+  .hero__container {
+    padding: 128px 144px;
+    padding-top: 192px;
+  }
 
   .hero__heading {
     display: none; /* Leave in h1 for SEO */
@@ -61,6 +64,13 @@ export const HeroStyles = styled.section`
     heught: 100%;
     width: 1173px;
     z-index: -2;
+  }
+
+  .hero__bottom-border-img {
+    text-align: center;
+    width: 101%;
+    z-index: -2;
+    margin-bottom: -10px;
   }
  
 
