@@ -27,14 +27,14 @@ export const HeroStyles = styled.section`
     text-align: center;
     color: ${styleVars.hackWhite};
     margin-top: 0;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
   }
 
   .hero__subheading {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    color: ${styleVars.hackWhite};
+    color: ${styleVars.hackBlack10};
     margin-top: 1rem;
     margin-bottom: 0;
     font-family: "Brown", san-serif;
@@ -47,14 +47,13 @@ export const HeroStyles = styled.section`
   }
 
   .hero__email {
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 1.2rem;
-    margin-top: 4.8rem;
-    display: block;
-    color: ${styleVars.hackBlack60};
+    margin-bottom: 32px;
+    margin-top: 12px;
     font-family: "Brown", san-serif;
-    font-size: 1.4rem;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
   }
 
   .hero__illustrations {

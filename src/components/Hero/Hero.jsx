@@ -4,9 +4,8 @@ import HeroStyles from "./HeroStyles"
 import { ArrowStyles } from "./FloatingStyles"
 
 import Buildings from "./Buildings"
-import mchacks9Logo from "./mchacks9Logo"
 import Button from "./Button"
-// import SignUpForm from "./SignUpForm"
+import SignUpForm from "./SignUpForm"
 
 import BuildingImg from "../../assets/images/designs/buildings.svg"
 import McHacksImg from "../../assets/images/designs/mchacks9-hero-logo.png"
@@ -30,26 +29,19 @@ const Hero = () => (
         src={McHacksImg}
         alt="McHacks"
       />
-      <h1 class="hero__heading">
+      <h1 className="hero__heading">
         McHacks
       </h1>
-      <h2 class="hero__topsubheading">McGill University · Jan 29-31, 2022</h2>
-      <div class="hero-header">
+      <h2 className="hero__topsubheading">McGill University · Jan 29-31, 2022</h2>
+      <div className="hero-header">
         {/*  */}
         {/* <ArrowStyles src={ArrowImg} />
         <ArrowStyles src={ArrowImg} style={{ left: 25 }} /> */}
       </div>
-      <div class="hero__illustrations">
-        <mchacks9Logo src={McHacksImg} />
+      <p className="hero__subheading">Sign up for updates on McHacks. No spam, we promise.</p>
+      <div className="hero__email">
+        <SignUpForm/>
       </div>
-      <p class="hero__subheading">Sign up for updates on McHacks. No spam, we promise</p>
-
-   
-      {/* <div class="hero__illustrations">
-        <mchacks9Logo src={McHacksImg} />
-      </div> */}
-    {/* </HeroStyles> */}
-    {/* <img src="../../assets/images/designs/mchacks9-hero-logo.png" alt="mchacks9 logo" /> */}
     <img
       src={GridImg}
       style={{ width: "100%", marginBottom: "-9px" }}
