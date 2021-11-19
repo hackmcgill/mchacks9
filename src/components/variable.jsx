@@ -12,7 +12,6 @@ export const buttonColorText = "#02365E" // Please also give a suggestion for ho
 export const buttonColorHover = "#FFB260" // Please give a suggestion for a hover colour.
 export const backgroundGradientStart = "#2B99D6"
 export const backgroundGradientEnd = "#0084D0"
-export const textColor = "#E1F3FF"
 export const purple = "#5C63AB"
 export const purpleLight = "#5C63AB19"
 export const blue = "#0069FF"
@@ -31,9 +30,12 @@ export const hackWhite = "#fff"
 export const hackBlack10 = "#E1F3FF"
 export const lightBlue = "#46AAE1"
 export const darkBlue = "#007CC0"
+export const lightSecondaryBlue = "#2B99D6"
+export const darkSecondaryBlue = "#0084D0"
 export const lightYellow = "#FED9AF"
 export const yellow = "#FFB260"
 export const darkYellow = "#FA9018"
+export const textColor = hackBlack10
 
 // global colors
 export const globalColorPrimary = hackWhite
