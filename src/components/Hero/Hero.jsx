@@ -3,7 +3,6 @@ import React from "react"
 import HeroStyles from "./HeroStyles"
 import { ArrowStyles } from "./FloatingStyles"
 
-import Buildings from "./Buildings"
 import Button from "./Button"
 import SignUpForm from "./SignUpForm"
 
