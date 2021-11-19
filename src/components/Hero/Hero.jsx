@@ -51,7 +51,7 @@ const Hero = () => (
       />
     </HeroStyles>
     <img
-      style={{width: '100%', zIndex: 1}}
+      style={{width: '100%', zIndex: 1, verticalAlign: 'bottom' }}
       src={GridImg}
     />
   </div>
