@@ -2,39 +2,42 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const HeroStyles = styled.section`
-  max-width: 1440px;
-  margin: auto;
 
-  position: relative;
-  padding: 128px 144px;
-  margin-top: 120px;
-  margin-bottom: 148px;
   z-index: 1;
-  top: 50px;
+  background-color: ${styleVars.darkBlue};
+  background:  linear-gradient(to bottom, ${styleVars.darkBlue}, ${styleVars.lightBlue});
+  color: ${styleVars.hackHeroBottomBlue};
+
+  text-align: center;
+
+  .hero__container {
+    padding: 96px 0;
+    padding-top: 192px;
+  }
 
   .hero__heading {
-    text-align: left;
-    margin: auto;
-    font-size: 3.875em;
-    font-weight: normal;
-    color: ${styleVars.colorHackRed};
-    position: relative;
+    display: none; /* Leave in h1 for SEO */
+  }
+
+  .hero__heading-image {
+    width: 520px;
+    margin-bottom: -32px;
   }
 
   .hero__topsubheading {
-    font-size: 1.875em;
+    font-size: 24px;
     font-weight: 400;
-    text-align: left;
-    color: ${styleVars.hackBlack};
+    text-align: center;
+    color: ${styleVars.hackWhite};
     margin-top: 0;
-    margin-bottom: -1.6rem;
+    margin-bottom: 32px;
   }
 
   .hero__subheading {
-    font-size: 1.25em;
+    font-size: 16px;
     font-weight: 400;
-    text-align: left;
-    color: ${styleVars.hackBlack60};
+    text-align: center;
+    color: ${styleVars.hackBlack10};
     margin-top: 1rem;
     margin-bottom: 0;
     font-family: "Brown", san-serif;
@@ -43,27 +46,33 @@ export const HeroStyles = styled.section`
   .hero__cta {
     font-size: 1.8rem;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
   }
 
   .hero__email {
-    font-weight: 400;
-    text-align: left;
-    margin-bottom: 1.2rem;
-    margin-top: 4.8rem;
-    display: block;
-    color: ${styleVars.hackBlack60};
+    margin-bottom: 32px;
+    margin-top: 12px;
     font-family: "Brown", san-serif;
-    font-size: 1.4rem;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
   }
 
   .hero__illustrations {
-    position: absolute;
-    top: -18px;
-    right: 34px;
+    position: center;
+    heught: 100%;
     width: 1173px;
     z-index: -2;
   }
+
+  .hero__bottom-border-img {
+    text-align: center;
+    width: 101%;
+    z-index: -2;
+    margin-bottom: -7px;
+  }
+ 
 
   @media only screen and (min-width: 1078px) and (max-width: 1399px) {
     max-width: 1280px;

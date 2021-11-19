@@ -9,19 +9,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 export const ArrowButton = styled.button`
-  background-color: ${styleVars.colorPurple};
-  color: #fff;
-  border-radius: 2em;
+  background-color: ${styleVars.yellow};
+  color: ${styleVars.hackWhite};
+  border-radius: 50%;
   border: none;
   transition: all 0.15s ease-in-out;
   top: 1px;
   right: 0;
-  height: 40px;
+  width: 54px;
+  height: 54px;
   padding: 0 14px;
   margin-left: -8px;
 
   &:hover {
-    background-color: ${styleVars.colorPurple};
+    background-color: ${styleVars.darkYellow};
   }
 `
 
@@ -49,7 +50,7 @@ export const MceEmbeddedSubscribe = styled.div`
   position: absolute;
   top: 0;
   right: 0;
-  margin-left: -42px;
+  margin-left: -25px;
   height: 36px;
   padding-left: 0px;
 
@@ -71,7 +72,7 @@ export const InputSignUp = styled.input.attrs({
   outline: 0;
   color: ${styleVars.colorHackRedMed};
   width: 152px !important;
-  height: 40px !important;
+  height: 54px !important;
   padding: 4px 12px !important; /* aligns input text in element */
   background-color: transparent !important;
   border-color: transparent !important;
