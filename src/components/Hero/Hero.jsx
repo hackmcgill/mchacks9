@@ -22,7 +22,7 @@ const Livesite = () => {
 // }
 
 const Hero = () => (
-  <div style={{background: styleVars.lightBlue}}>
+  <div style={{background: styleVars.lightSecondaryBlue}}>
     <HeroStyles>
       <div className="hero__container">
         <img
@@ -33,7 +33,7 @@ const Hero = () => (
         <h1 className="hero__heading">
           McHacks
         </h1>
-        <h2 className="hero__topsubheading">McGill University · Jan 29-31, 2022</h2>
+        <h2 className="hero__topsubheading">McGill University · Jan 21-23, 2022</h2>
         <div className="hero-header">
           {/*  */}
           {/* <ArrowStyles src={ArrowImg} />
@@ -51,7 +51,7 @@ const Hero = () => (
       />
     </HeroStyles>
     <img
-      style={{width: '100%', zIndex: 1}}
+      style={{width: '100%', zIndex: 1, verticalAlign: 'bottom' }}
       src={GridImg}
     />
   </div>

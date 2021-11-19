@@ -1,9 +1,23 @@
 import React from "react"
+import styled from "styled-components"
+import * as styleVars from "../variable"
 
 import Container from "./Container"
 import Question from "./Question"
 
-const FAQ = ({ scrollRef }) => (
+import BoxGradientImg from "../../assets/images/designs/sponsor-gradient.svg"
+
+const TransitionToFAQ = styled.div`
+  position: relative;
+  vertical-align: bottom;
+  background-repeat: repeat-x;
+  height: 279px;
+  background-color: ${styleVars.darkSecondaryBlue};
+  background-image: url(${BoxGradientImg});
+`
+
+const FAQ = ({ scrollRef }) => <>
+  <TransitionToFAQ/>
   <Container ref={scrollRef}>
     <h2>Frequently Asked Questions</h2>
 
@@ -64,6 +78,6 @@ const FAQ = ({ scrollRef }) => (
       questions or concerns.
     </Question>
   </Container>
-)
+</>
 
 export default FAQ

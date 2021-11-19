@@ -8,7 +8,6 @@ import Sponsor from "../components/Sponsor/Sponsor"
 import FAQ from "../components/FAQ/FAQ"
 import Logos from "../components/Logos/Logos"
 import Footer from "../components/Footer/Footer"
-import Bg from "../components/Bg/Bg"
 
 const scrollTo = ref => {
   if (!ref || !ref.current) {
@@ -31,10 +30,8 @@ const IndexPage = () => {
         scrollToFaq={() => scrollTo(faqRef)}
       />
       <Hero />
-      <Bg>
-        <About scrollRef={aboutRef} />
-        <Sponsor scrollRef={sponsorRef} />
-      </Bg>
+      <About scrollRef={aboutRef} />
+      <Sponsor scrollRef={sponsorRef} />
       <FAQ scrollRef={faqRef} />
       <Logos />
       <Footer />
