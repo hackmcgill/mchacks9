@@ -34,6 +34,9 @@ export const darkBlue = "#007CC0"
 export const lightYellow = "#FED9AF"
 export const yellow = "#FFB260"
 export const darkYellow = "#FA9018"
+//below are colors for mchacks9
+export const hackHeroTopBlue = "#46AAE1"
+export const hackHeroBottomBlue = "#46AAE1"
 
 // global colors
 export const globalColorPrimary = hackWhite
