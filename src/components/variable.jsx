@@ -17,9 +17,17 @@ export const hackBlack60 = "#797979"
 export const hackBlack40 = "#a6a6a6"
 export const hackBlack30 = "#bcbcbc"
 export const hackBlack20 = "#d2d2d2"
-export const hackBlack10 = "#e9e9e9"
 export const hackBlack5 = "#f4f4f4"
+
+// mchacks9 color palette
+// TODO: Remove outdated colors above
 export const hackWhite = "#fff"
+export const hackBlack10 = "#E1F3FF"
+export const lightBlue = "#46AAE1"
+export const darkBlue = "#007CC0"
+export const lightYellow = "#FED9AF"
+export const yellow = "#FFB260"
+export const darkYellow = "#FA9018"
 
 // global colors
 export const globalColorText = hackBlack70
