@@ -46,10 +46,10 @@ const Logos = ({ scrollRef }) => (
       style={{
         fontSize: "5rem",
         justifyContent: "center",
-        color: COLORS.colorHackRed,
+        color: COLORS.buttonColorText,
       }}
     >
-      Our sponsors
+      Our Sponsors
     </Content>
     {/* Tier 1/Mega sponsors */}
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>

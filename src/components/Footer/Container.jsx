@@ -3,7 +3,7 @@ import * as styleVars from "../variable"
 
 export const Container = styled.footer`
   padding: 2rem 0;
-  border-top: 2px solid ${styleVars.colorHackRed};
+  border-top: 2px solid ${styleVars.backgroundGradientStart};
   display: flex;
   width: 100%;
   justify-content: space-between;
