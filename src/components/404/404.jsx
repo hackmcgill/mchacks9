@@ -12,6 +12,9 @@ const home = () => {
   window.location = "/"
 }
 
-const NotFound = () => window.location = '/'
+const NotFound = () => {
+  if (typeof window !== 'undefined')
+    window.location = '/'
+}
 
 export default NotFound
