@@ -1,20 +1,7 @@
 import React from "react"
+import { navigate } from "gatsby"
 
-import Container from "./Container"
-import Wrapper from "./Wrapper"
-import Image from "./Image"
-import Text from "./Text"
-import Button from "./Button"
-
-import NotFoundImg from "../../assets/images/designs/not-found.svg"
-
-const home = () => {
-  window.location = "/"
-}
-
-const NotFound = () => {
-  if (typeof window !== 'undefined')
-    window.location = '/'
-}
+// (2021-11-24) - The navigate function will be removed in the next major release of Gatsby.
+const NotFound = () => navigate("/")
 
 export default NotFound
