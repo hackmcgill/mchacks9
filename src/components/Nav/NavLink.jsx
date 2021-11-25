@@ -11,7 +11,7 @@ export const NavLink = styled.a`
   &:focus,
   &:hover,
   &:active {
-    color: ${styleVars.colorHackRed};
+    color: ${styleVars.darkYellow};
     background: transparent;
   }
 `

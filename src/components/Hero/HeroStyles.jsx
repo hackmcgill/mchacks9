@@ -2,7 +2,6 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const HeroStyles = styled.section`
-
   z-index: 1;
   background-color: ${styleVars.darkBlue};
   background:  linear-gradient(to bottom, ${styleVars.darkBlue}, ${styleVars.lightBlue});
@@ -100,6 +99,10 @@ export const HeroStyles = styled.section`
       font-size: 48px;
     }
 
+    .hero__heading-image {
+      max-width: 100%;
+    }
+
     .hero__topsubheading {
       text-align: center;
       padding-bottom: 0;
@@ -138,6 +141,10 @@ export const HeroStyles = styled.section`
       right: 0;
       left: 0;
     }
+
+    .hero__bottom-border-img {
+      margin-bottom: -51px;
+    }  
   }
 
   @media only screen and (max-width: 410px) {
