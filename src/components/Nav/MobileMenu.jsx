@@ -5,11 +5,11 @@ export const MobileMenu = {
     position: "fixed",
     width: "30px",
     height: "25px",
-    top: "22px",
+    top: "30px",
     right: "30px",
   },
   bmBurgerBars: {
-    background: styleVars.hackBlack40,
+    background: styleVars.hackWhite,
     borderRadius: "30px",
     height: "3.5px",
   },
@@ -32,18 +32,18 @@ export const MobileMenu = {
     borderRadius: "5px",
   },
   bmMenuWrap: {
-    position: "fixed",
+    width: "100%",
     height: "100%",
   },
   bmMenu: {
-    background: styleVars.hackBlack5,
+    background: styleVars.hackWhite,
     padding: "2.5em 1.5em 0",
   },
   bmMorphShape: {
     fill: "#373a47",
   },
   bmItemList: {
-    color: styleVars.colorHackRed,
+    color: styleVars.darkYellow,
     padding: "0.8em",
     top: "8em",
     display: "grid",
@@ -53,6 +53,7 @@ export const MobileMenu = {
     marginTop: "60px",
   },
   bmItem: {
+    color: styleVars.hackBlack20,
     textAlign: "center",
     lineHeight: "7rem",
     fontDize: "36px",
