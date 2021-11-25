@@ -3,12 +3,12 @@ import * as styleVars from "../variable"
 
 export const Text = styled.div`
   max-width: 440px;
-  font-size: 16px;
+  font-size: 18px;
 
   h2 {
     color: ${styleVars.hackWhite};
     font-size: 36px;
-    font-weight: 400;
+    font-weight: bold;
     margin-top: 0;
     margin-bottom: 40px;
   }
