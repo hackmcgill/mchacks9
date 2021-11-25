@@ -22,11 +22,13 @@ const Livesite = () => {
 // }
 
 const Hero = () => (
-  <div style={{background: styleVars.lightSecondaryBlue}}>
-    <HeroStyles>
+  <HeroStyles>
+    <div className="hero__wrapper">
       <div className="hero__container">
         <img
           className="hero__heading-image"
+          width={520}
+          height={160}
           src={McHacksImg}
           alt="McHacks"
         />
@@ -49,12 +51,18 @@ const Hero = () => (
         src={MountainsImg}
         alt="Background image"
       />
-    </HeroStyles>
-    <img
-      style={{width: '100%', zIndex: 1, verticalAlign: 'bottom' }}
-      src={GridImg}
-    />
-  </div>
+    </div>
+    <div style={{position: 'relative'}}>
+      <img
+        className="hero__grid"
+        src={GridImg}
+      />
+      <img
+        className="hero__grid hidden"
+        src={GridImg}
+      />
+    </div>
+  </HeroStyles>
 )
 
 export default Hero
