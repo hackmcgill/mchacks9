@@ -21,6 +21,9 @@ export const hackBlack10 = "#e9e9e9"
 export const hackBlack5 = "#f4f4f4"
 export const hackWhite = "#fff"
 
+export const faqBlue1 = "#02365E"
+export const faqBlue2 = "#A9DEFE"
+
 // global colors
 export const globalColorText = hackBlack70
 export const globalColorBg = hackWhite
