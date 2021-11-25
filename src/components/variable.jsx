@@ -37,6 +37,9 @@ export const yellow = "#FFB260"
 export const darkYellow = "#FA9018"
 export const textColor = hackBlack10
 
+export const faqBlue1 = "#02365E"
+export const faqBlue2 = "#A9DEFE"
+
 // global colors
 export const globalColorPrimary = hackWhite
 

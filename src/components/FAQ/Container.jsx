@@ -1,44 +1,49 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
+import BgGridSquare from "../../assets/images/designs/faq-grid-square.svg"
 
-export const Container = styled.div`
-  max-width: 720px;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 100px;
-  margin-top: 100px;
+const Container = styled.div`
+  background-image: url(${BgGridSquare}), linear-gradient(#fed9af, #ffb260);
+  position: relative;
+  height: 1080px;
 
-  &.hidden {
-    display: none !important;
+  @media only screen and (max-width: 1300px) {
+    height 990px;
   }
 
-  h2 {
-    color: ${styleVars.colorHackRed};
-    font-size: 3rem;
-    font-weight: 400;
+  @media only screen and (max-width: 1000px) {
+    height 900px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    padding-top: 110px;
+    padding-bottom: 90px;
+    height: 1520px;
   }
 
   .QuestionBox {
-    border: 1px solid ${styleVars.hackBlack10};
-    padding: 24px 30px;
-    border-radius: 10px;
+    border: 1px solid ${styleVars.faqBlue2};
+    padding: 10px 10px;
+    border-radius: 5px;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1em;
     cursor: pointer;
     transition: background 0.5s ease;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     box-sizing: border-box;
+    background-color: white;
+
+    a {
+      color: ${styleVars.faqBlue1};
+    }
 
     .questionRow {
       display: flex;
 
       .question {
         color: ${styleVars.hackBlack80};
-        border-bottom: 3px solid ${styleVars.hackWhite};
-        margin-bottom: -3px;
-        transition: border 0.5s ease;
       }
 
       .spacer {
@@ -48,8 +53,8 @@ export const Container = styled.div`
       .expandButton > img {
         opacity: 30%;
         position: relative;
-        top: 3px;
-        transition: opacity 0.5s ease, transform 0.3s ease;
+        top: 0px;
+        transition: opacity 0.3s ease, transform 0.3s ease;
       }
     }
 
@@ -63,6 +68,7 @@ export const Container = styled.div`
 
     &.expanded {
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+      align-self: stretch;
 
       .answer {
         display: block;
@@ -78,10 +84,6 @@ export const Container = styled.div`
     }
 
     &:hover {
-      .question {
-        border-color: ${styleVars.colorHackYellow};
-      }
-
       .expandButton > img {
         opacity: 90%;
       }
