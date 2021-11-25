@@ -3,7 +3,7 @@ import React from "react"
 import Container from "./Container"
 import Text from "./Text"
 import Image from "./Image"
-import Content from "../About/Content"
+import Content from "./Content"
 
 import Apparel from "../../assets/images/designs/apparel.svg"
 import Schedule from "../../assets/images/designs/schedule.svg"

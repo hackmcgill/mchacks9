@@ -1,13 +1,14 @@
 import React from "react"
 
-import Content from "./Content"
+import Container from "./Container"
 import Text from "./Text"
 import Image from "./Image"
 
 import AboutImg from "../../assets/images/designs/about.svg"
+import { Content } from "./Content"
 
 const About = ({ scrollRef }) => (
-  <div ref={scrollRef}>
+  <Container ref={scrollRef} style={{}}>
     <Content>
       <Text>
         <h2>Canada’s original collegiate hackathon goes global!</h2>
@@ -29,7 +30,7 @@ const About = ({ scrollRef }) => (
       </Text>
       <Image src={AboutImg} />
     </Content>
-  </div>
+  </Container>
 )
 
 export default About

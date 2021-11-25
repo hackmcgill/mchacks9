@@ -1,16 +1,14 @@
-import React, { useState } from "react"
+import React from "react"
 
 import ArrowDown from "./arrow_down.svg"
 import ArrowUp from "./arrow_up.svg"
 
-const Question = ({ question, children }) => {
-  const [expanded, setExpanded] = useState(false)
-
+const Question = ({ question, expanded, onClickToggle, children }) => {
   return (
     <div
       className={"QuestionBox " + (expanded ? "expanded" : "")}
-      onClick={() => setExpanded(!expanded)}
-      onKeyDown={() => setExpanded(!expanded)}
+      onClick={() => onClickToggle()}
+      onKeyDown={() => onClickToggle()}
       role="button"
       tabIndex={0}
     >
