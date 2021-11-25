@@ -2,13 +2,23 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const HeroStyles = styled.section`
+  @keyframes slideInFromLeft {
+    0% {
+      clip: rect(auto, auto, 0, auto);
+    }
+    100% {
+      clip: rect(auto, auto, 1000px, auto);
+    }
+  }
 
-  z-index: 1;
-  background-color: ${styleVars.darkBlue};
-  background:  linear-gradient(to bottom, ${styleVars.darkBlue}, ${styleVars.lightBlue});
-  color: ${styleVars.hackHeroBottomBlue};
+  background: ${styleVars.lightSecondaryBlue};
 
-  text-align: center;
+  .hero__wrapper {
+    z-index: 1;
+    background-color: ${styleVars.darkBlue};
+    background:  linear-gradient(to bottom, ${styleVars.darkBlue}, ${styleVars.lightBlue});
+    text-align: center;
+  }
 
   .hero__container {
     padding: 96px 0;
@@ -72,8 +82,22 @@ export const HeroStyles = styled.section`
     z-index: -2;
     margin-bottom: -7px;
   }
- 
 
+  .hero__grid {
+    width: 100%;
+    z-index: 1;
+    vertical-align: bottom;
+    animation: 5s ease-out 0s 1 slideInFromLeft;
+    transform-origin: top;
+    position: absolute;
+
+    &.hidden {
+      position: static;
+      animation: none;
+      visibility: hidden;
+    }
+  }
+ 
   @media only screen and (min-width: 1078px) and (max-width: 1399px) {
     max-width: 1280px;
     padding: 100px 60px;
