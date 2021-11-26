@@ -11,8 +11,6 @@ import GridImg from "../../assets/images/designs/grid.svg"
 import McHacksImg from "../../assets/images/designs/mchacks9-hero-logo.png"
 import ArrowImg from "../../assets/images/designs/arrow.svg"
 
-import * as styleVars from "../variable"
-
 const Livesite = () => {
   window.location = "https://mchacks.ca/live"
 }

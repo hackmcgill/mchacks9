@@ -27,6 +27,7 @@ export const Text = styled.div`
   }
 
   @media only screen and (max-width: 1118px) {
+    padding-top: 60px;
     margin-left: auto;
     margin-right: auto;
   }

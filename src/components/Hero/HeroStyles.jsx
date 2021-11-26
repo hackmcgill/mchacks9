@@ -99,7 +99,7 @@ export const HeroStyles = styled.section`
     }
   }
  
-  @media only screen and (min-width: 1078px) and (max-width: 1399px) {
+  @media only screen and (min-width: 1078px) and (max-width: 1299px) {
     max-width: 1280px;
 
     .hero-wrapper {

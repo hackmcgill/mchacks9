@@ -5,6 +5,7 @@ const Text = styled.div`
   font-size: 18px;
   padding-right: 30px;
   padding-left: 54px;
+  max-width: 440px;
 
   h3 {
     color: ${styleVars.hackWhite};
@@ -20,16 +21,16 @@ const Text = styled.div`
     margin-bottom: 16px;
   }
 
-  @media only screen and (max-width: ${styleVars.smUp}) {
+  @media only screen and (max-width: 768px) {
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-bottom: 1rem;
   }
 
   @media only screen and (max-width: 1118px) {
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
   }
 `
 
