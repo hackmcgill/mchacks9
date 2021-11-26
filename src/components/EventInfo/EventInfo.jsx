@@ -1,18 +1,11 @@
 import React from "react"
-import styled from "styled-components"
 import * as styleVars from "../variable"
 
 import Event49Img from "../../assets/images/event/McHacks-49.jpg"
 import Container from "./Container"
 import Image from "./Image"
 import Text from "./Text"
-
-const Seperator = styled.div`
-  width: 32px;
-  height: 6px;
-  background: ${styleVars.darkBlue};
-  margin-bottom: 16px;
-`
+import Seperator from "./Seperator"
 
 const EventInfo = () => {
   return (
