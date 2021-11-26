@@ -38,7 +38,6 @@ export const Window = styled.div`
     max-width: 1202px;
 
     padding-top: 40px;
-    overflow-y: scroll;
   }
 
   .grid {
@@ -77,23 +76,18 @@ export const Window = styled.div`
       width: calc(1202 * var(--scaling-factor));
       max-height: initial;
     }
+
     .grid {
       width: 90%;
       max-width: 750px;
     }
   }
 
-  @media only screen and (max-width: 1000px) {
-    .content {
-      padding: 0;
-    }
-  }
-
   @media only screen and (max-width: 900px) {
     background-image: none;
-    background-color: white;
-    border-radius: 35px;
+    background-color: ${styleVars.hackWhite}aa;
 
+    border-radius: 32px;
     max-height: none;
     max-width: 720px;
     height: initial;
@@ -108,6 +102,7 @@ export const Window = styled.div`
       padding-top: 80px;
       padding-bottom: 100px;
     }
+    
     .grid {
       position: initial;
       display: flex;
@@ -116,6 +111,7 @@ export const Window = styled.div`
       align-content: center;
       max-width: 500px;
     }
+
     .QuestionBox {
       width: 100%;
       padding: 16px 24px;
@@ -125,6 +121,12 @@ export const Window = styled.div`
       margin: 20px;
       box-sizing: border-box;
     }
+  }
+
+  @media only screen and (max-width: 840px) {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
   }
 `
 export default Window
