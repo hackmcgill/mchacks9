@@ -140,11 +140,7 @@ export const HeroStyles = styled.section`
       top: 0;
       right: 0;
       left: 0;
-    }
-
-    .hero__bottom-border-img {
-      margin-bottom: -51px;
-    }  
+    } 
   }
 
   @media only screen and (max-width: 410px) {

@@ -22,7 +22,7 @@ const Nav = ({
 }) => {
   const [hasBorder, setHasBorder] = useState(false)
   const handleScroll = () => {
-    setHasBorder(window.pageYOffset > 15 || window.innerWidth <= 768)
+    setHasBorder(window.pageYOffset > 15)
   }
 
   useEffect(() => {
