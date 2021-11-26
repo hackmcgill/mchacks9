@@ -5,7 +5,7 @@ export const Container = styled.section`
   display: flex;
   max-width: 100%;
   align-items: center;
-  background: linear-gradient(${styleVars.backgroundGradientStart}, ${styleVars.backgroundGradientEnd});
+  background: ${styleVars.hackWhite};
 `
 
 export default Container
