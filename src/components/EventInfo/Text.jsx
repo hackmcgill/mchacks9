@@ -1,35 +1,36 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
 
-export const Text = styled.div`
-  max-width: 440px;
+const Text = styled.div`
   font-size: 18px;
+  padding-right: 30px;
+  padding-left: 54px;
+  max-width: 440px;
 
-  h2 {
+  h3 {
     color: ${styleVars.hackWhite};
-    font-size: 36px;
+    font-size: 26px;
     font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 
   p {
     color: ${styleVars.textColor};
-    margin-top: 0;
-    margin-bottom: 32px;
+    margin: 0;
+    margin-bottom: 16px;
   }
 
-  @media only screen and (max-width: ${styleVars.smUp}) {
+  @media only screen and (max-width: 768px) {
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-bottom: 1rem;
   }
 
   @media only screen and (max-width: 1118px) {
-    padding-top: 60px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
   }
 `
 
