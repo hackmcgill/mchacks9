@@ -2,21 +2,22 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 const Text = styled.div`
-  max-width: 440px;
   font-size: 18px;
+  padding-right: 30px;
+  padding-left: 54px;
 
-  h2 {
+  h3 {
     color: ${styleVars.hackWhite};
-    font-size: 36px;
+    font-size: 26px;
     font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 
   p {
     color: ${styleVars.textColor};
-    margin-top: 0;
-    margin-bottom: 32px;
+    margin: 0;
+    margin-bottom: 16px;
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {

@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 const Image = styled.img`
-  max-width: 720;
-  max-height: 480;
+  max-width: 840px;
   border-radius: 12px;
   box-shadow: 0 2px 12px 6px rgba(0, 0, 0, 0.15);
 
