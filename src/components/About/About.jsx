@@ -6,13 +6,12 @@ import Image from "./Image"
 
 import AboutImg from "../../assets/images/designs/about.svg"
 import { Content } from "./Content"
-import EventInfo from "./EventInfo"
 
 const About = ({ scrollRef }) => (
   <Container ref={scrollRef} style={{}}>
     <Content>
       <Text>
-        <h2>Dream. Develop. Depoly!</h2>
+        <h2>Dream. Develop. Deploy!</h2>
         <p>
           For 72 hours, over 500 of the boldest young minds across the Globe
           come together for a jam-packed weekend of beginner-to-pro workshops,
@@ -29,7 +28,6 @@ const About = ({ scrollRef }) => (
       </Text>
       <Image src={AboutImg} />
     </Content>
-    <EventInfo/>
   </Container>
 )
 
