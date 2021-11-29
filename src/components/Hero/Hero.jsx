@@ -11,8 +11,8 @@ import GridImg from "../../assets/images/designs/grid.svg"
 import McHacksImg from "../../assets/images/designs/mchacks9-hero-logo.png"
 import ArrowImg from "../../assets/images/designs/arrow.svg"
 
-const Livesite = () => {
-  window.location = "https://mchacks.ca/live"
+const apply = () => {
+  window.location = "https://app.mchacks.ca/"
 }
 
 // const Live = () => {
@@ -39,10 +39,11 @@ const Hero = () => (
           {/* <ArrowStyles src={ArrowImg} />
           <ArrowStyles src={ArrowImg} style={{ left: 25 }} /> */}
         </div>
-        <p className="hero__subheading">Sign up for updates on McHacks. No spam, we promise.</p>
-        <div className="hero__email">
+        <Button onClick={apply}>Apply Now →</Button>
+        <p className="hero__subheading">Attend virtually or in-person.</p>
+        {/*<div className="hero__email">
           <SignUpForm/>
-        </div>
+        </div>*/}
       </div>
       <img
         className="hero__bottom-border-img"
