@@ -28,7 +28,7 @@ const EventInfo = () => {
             for 36 hours of hacking, food, and fun.
           </p>
           <p>
-            Whichever way you choose to attend, you'll get the full McHacks experience of innovation, networking, &amp; workshops.
+            Whichever way you choose to attend, you'll get the full McHacks experience of innovation, networking, and workshops.
           </p>
         </Text>
       </Container>
