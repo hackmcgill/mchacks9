@@ -46,7 +46,7 @@ const Logos = ({ scrollRef }) => (
       style={{
         fontSize: "5rem",
         justifyContent: "center",
-        color: COLORS.buttonColorText,
+        color: COLORS.colorHackRed,
       }}
     >
       Our Sponsors
