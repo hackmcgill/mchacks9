@@ -20,15 +20,15 @@ const EventInfo = () => {
           <h3>In-Person or Virtual</h3>
           <Seperator />
           <p>
-            This year, McHacks is going global! For 36 hours, the best and brightest students from around the
-            world will connect remotely and build their dreams.
+            You can choose to attend McHacks either virtually or in-person in Montreal.
           </p>
           <p>
-            Near Montréal? We'll be choosing a select cohort of people to attend the event in-person and join us on McGill campus
-            for 36 hours of hacking, food, and fun.
+            Covid saftey protocols will be in place at the in-person edition of McHacks in order
+            to protect the safety of everyone at our event. These include vacine passport checks
+            at sign-in, limited capacity, social distancing, and mask-wearing.
           </p>
           <p>
-            Whichever way you choose to attend, you'll get the full McHacks experience of innovation, networking, &amp; workshops.
+            Whichever way you choose to attend, you'll get the full McHacks experience of 36 hours of hacking, networking, &amp; workshops.
           </p>
         </Text>
       </Container>

@@ -22,8 +22,9 @@ export const HeroStyles = styled.section`
   }
 
   .hero__container {
-    padding: 96px 0;
+    padding: 0;
     padding-top: 192px;
+    padding-bottom: 144px;
   }
 
   .hero__heading {
@@ -133,6 +134,7 @@ export const HeroStyles = styled.section`
 
     .hero__heading-image {
       max-width: 100%;
+      height: auto;
     }
 
     .hero__topsubheading {
