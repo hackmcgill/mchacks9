@@ -3,7 +3,7 @@ import * as styleVars from "../variable"
 
 export const Text = styled.div`
   max-width: 440px;
-  font-size: 16px;
+  font-size: 18px;
 
   h2 {
     color: ${styleVars.hackWhite};
@@ -27,6 +27,7 @@ export const Text = styled.div`
   }
 
   @media only screen and (max-width: 1118px) {
+    padding-top: 60px;
     margin-left: auto;
     margin-right: auto;
   }

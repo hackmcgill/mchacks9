@@ -2,12 +2,24 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const HeroStyles = styled.section`
-  z-index: 1;
-  background-color: ${styleVars.darkBlue};
-  background:  linear-gradient(to bottom, ${styleVars.darkBlue}, ${styleVars.lightBlue});
-  color: ${styleVars.hackHeroBottomBlue};
+  @keyframes slideDown {
+    0% {
+      clip: rect(auto, auto, 0, auto);
+    }
+    100% {
+      clip: rect(auto, auto, 1000px, auto);
+    }
+  }
 
-  text-align: center;
+  background: ${styleVars.lightSecondaryBlue};
+
+  .hero__wrapper {
+    z-index: 1;
+    background-color: ${styleVars.darkBlue};
+    background:  linear-gradient(to bottom, ${styleVars.darkBlue}, ${styleVars.lightBlue});
+    text-align: center;
+    width: 100%;
+  }
 
   .hero__container {
     padding: 96px 0;
@@ -71,16 +83,33 @@ export const HeroStyles = styled.section`
     z-index: -2;
     margin-bottom: -7px;
   }
- 
 
-  @media only screen and (min-width: 1078px) and (max-width: 1399px) {
+  .hero__grid {
+    width: 100%;
+    z-index: 1;
+    vertical-align: bottom;
+    animation: 5s ease-out 0s 1 slideDown;
+    transform-origin: top;
+    position: absolute;
+
+    &.hidden {
+      position: static;
+      animation: none;
+      visibility: hidden;
+    }
+  }
+ 
+  @media only screen and (min-width: 1078px) and (max-width: 1299px) {
     max-width: 1280px;
-    padding: 100px 60px;
-    margin-top: 40px;
-    margin-bottom: 117px;
+
+    .hero-wrapper {
+      padding: 100px 60px;
+      padding-top: 140px;
+      padding-bottom: 217px;
+    }
 
     .hero__cta {
-      font-size: 1.4rem;
+      font-size: 14px;
     }
 
     .hero__illustrations {
@@ -90,10 +119,13 @@ export const HeroStyles = styled.section`
   }
 
   @media only screen and (max-width: 1077px) {
-    padding: 0 2rem;
-    margin-top: 80px;
-    margin-bottom: 43px;
     text-align: center;
+
+    .hero-wrapper {
+      padding: 0 20px;
+      padding-top: 80px;
+      padding-bottom: 43px;
+    }
 
     .hero__heading {
       font-size: 48px;
@@ -107,7 +139,6 @@ export const HeroStyles = styled.section`
       text-align: center;
       padding-bottom: 0;
       font-size: 20px;
-      margin-bottom: -10px;
     }
 
     .hero__subheading {
@@ -116,8 +147,8 @@ export const HeroStyles = styled.section`
       margin: auto;
       margin-top: 16px;
       font-size: 18px;
-      border-top: 2px solid ${styleVars.colorPurpleLight};
-      border-bottom: 2px solid ${styleVars.colorPurpleLight};
+      border-top: 2px solid ${styleVars.darkBlue};
+      border-bottom: 2px solid ${styleVars.darkBlue};
       padding: 8px 0;
       max-width: 440px;
     }

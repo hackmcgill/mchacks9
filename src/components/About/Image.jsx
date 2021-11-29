@@ -5,7 +5,7 @@ export const Image = styled.img`
   object-fit: contain;
   position: relative;
   left: 45px;
-  top: 100px;
+  top: 48px;
   width: 671px;
   height: auto;
 

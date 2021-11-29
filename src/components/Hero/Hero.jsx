@@ -11,8 +11,6 @@ import GridImg from "../../assets/images/designs/grid.svg"
 import McHacksImg from "../../assets/images/designs/mchacks9-hero-logo.png"
 import ArrowImg from "../../assets/images/designs/arrow.svg"
 
-import * as styleVars from "../variable"
-
 const Livesite = () => {
   window.location = "https://mchacks.ca/live"
 }
@@ -22,18 +20,20 @@ const Livesite = () => {
 // }
 
 const Hero = () => (
-  <div style={{background: styleVars.lightBlue}}>
-    <HeroStyles>
+  <HeroStyles>
+    <div className="hero__wrapper">
       <div className="hero__container">
         <img
           className="hero__heading-image"
+          width={520}
+          height={160}
           src={McHacksImg}
           alt="McHacks"
         />
         <h1 className="hero__heading">
           McHacks
         </h1>
-        <h2 className="hero__topsubheading">McGill University · Jan 29-31, 2022</h2>
+        <h2 className="hero__topsubheading">McGill University · Jan 21-23, 2022</h2>
         <div className="hero-header">
           {/*  */}
           {/* <ArrowStyles src={ArrowImg} />
@@ -49,12 +49,18 @@ const Hero = () => (
         src={MountainsImg}
         alt="Background image"
       />
-    </HeroStyles>
-    <img
-      style={{width: '100%', zIndex: 1, verticalAlign: 'bottom' }}
-      src={GridImg}
-    />
-  </div>
+    </div>
+    <div style={{position: 'relative'}}>
+      <img
+        className="hero__grid"
+        src={GridImg}
+      />
+      <img
+        className="hero__grid hidden"
+        src={GridImg}
+      />
+    </div>
+  </HeroStyles>
 )
 
 export default Hero

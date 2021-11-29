@@ -5,8 +5,8 @@ export const Content = styled.div`
   justify-content: space-between;
   max-width: 1200px;
   margin: auto;
-  padding-top: 96px;
-  margin-bottom: 96px;
+  padding-top: 144px;
+  padding-bottom: 144px;
 
   @media only screen and (max-width: 1345px) {
     max-width: 1000px;
@@ -20,5 +20,3 @@ export const Content = styled.div`
     padding-top: 40px;
   }
 `
-
-export default Content
