@@ -19,6 +19,7 @@ const Nav = ({
   scrollToAbout = () => {},
   scrollToSponsor = () => {},
   scrollToFaq = () => {},
+  darkBackground = false,
 }) => {
   const [hasBorder, setHasBorder] = useState(false)
   const handleScroll = () => {
@@ -40,7 +41,7 @@ const Nav = ({
     </>
   )
   return (
-    <Container className={hasBorder ? "has-border" : ""}>
+    <Container className={(hasBorder ? "has-border " : "") + (darkBackground ? "dark-background" : "")}>
       <div>
         <IconContainer>
           <Link to="/">

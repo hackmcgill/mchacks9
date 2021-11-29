@@ -22,6 +22,7 @@ const CodeOfConductPage = () => {
       <Nav
         scrollToAbout={() => scrollTo(aboutRef)}
         scrollToSponsor={() => scrollTo(sponsorRef)}
+        darkBackground={true}
       />
       <CodeofConduct />
       <Footer />

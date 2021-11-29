@@ -22,6 +22,7 @@ const PrivacyPage = () => {
       <Nav
         scrollToAbout={() => scrollTo(aboutRef)}
         scrollToSponsor={() => scrollTo(sponsorRef)}
+        darkBackground={true}
       />
       <Privacy />
       <Footer />

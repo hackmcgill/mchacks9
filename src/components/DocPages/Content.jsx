@@ -4,7 +4,6 @@ import * as styleVars from "../variable"
 export const Content = styled.div`
   display: flex;
   max-width: 1000px;
-  padding: 3000px;
 
   @media only screen and (max-width: ${styleVars.smUp}) {
     display: block;

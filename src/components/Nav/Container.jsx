@@ -15,9 +15,9 @@ export const Container = styled.nav`
   align-items: center;
   transition: 0.4s background-color ease-in, 0.4s box-shadow ease-in;
 
-  &.has-border {
-    background-color: ${styleVars.darkBlue};
-    box-shadow: 0 2px 6px 3px ${styleVars.darkBlue}66;
+  &.has-border, &.dark-background {
+    background-color: ${styleVars.darkBlue} !important;
+    box-shadow: 0 2px 6px 3px ${styleVars.darkBlue}66 !important;
   }
 `
 

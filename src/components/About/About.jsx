@@ -18,7 +18,6 @@ const About = ({ scrollRef }) => (
           decked-out hardware, delicious food, and some epic hacking.
         </p>
         <p>
-
           This year we're going bigger than ever! We're hosting our hackathon both
           online and in-person and you can choose which way you want to attend.
           So whether you're writing your first line of code, playing around with

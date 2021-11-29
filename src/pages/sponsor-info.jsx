@@ -22,6 +22,7 @@ const SponsorInfoPage = () => {
       <Nav
         scrollToAbout={() => scrollTo(aboutRef)}
         scrollToSponsor={() => scrollTo(sponsorRef)}
+        darkBackground={true}
       />
       <SponsorInfo />
       <Footer />

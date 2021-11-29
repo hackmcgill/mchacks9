@@ -22,8 +22,12 @@ export const HeroStyles = styled.section`
   }
 
   .hero__container {
-    padding: 96px 0;
+    padding: 0;
     padding-top: 192px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .hero__heading {
@@ -32,7 +36,7 @@ export const HeroStyles = styled.section`
 
   .hero__heading-image {
     width: 520px;
-    margin-bottom: -32px;
+    margin-bottom: -26px;
   }
 
   .hero__topsubheading {
@@ -41,7 +45,7 @@ export const HeroStyles = styled.section`
     text-align: center;
     color: ${styleVars.hackWhite};
     margin-top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 72px;
   }
 
   .hero__subheading {
@@ -49,7 +53,7 @@ export const HeroStyles = styled.section`
     font-weight: 400;
     text-align: center;
     color: ${styleVars.hackBlack10};
-    margin-top: 1rem;
+    margin-top: 0;
     margin-bottom: 0;
     font-family: "Brown", san-serif;
   }
@@ -131,6 +135,11 @@ export const HeroStyles = styled.section`
       font-size: 48px;
     }
 
+    .hero__heading-image {
+      max-width: 100%;
+      height: auto;
+    }
+
     .hero__topsubheading {
       text-align: center;
       padding-bottom: 0;
@@ -167,7 +176,7 @@ export const HeroStyles = styled.section`
       top: 0;
       right: 0;
       left: 0;
-    }
+    } 
   }
 
   @media only screen and (max-width: 410px) {

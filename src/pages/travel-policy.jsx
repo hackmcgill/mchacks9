@@ -22,6 +22,7 @@ const TravelPolicyPage = () => {
       <Nav
         scrollToAbout={() => scrollTo(aboutRef)}
         scrollToSponsor={() => scrollTo(sponsorRef)}
+        darkBackground={true}
       />
       <TravelPolicy />
       <Footer />
