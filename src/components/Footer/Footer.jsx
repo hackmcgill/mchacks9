@@ -16,10 +16,10 @@ import SocialLink from "./SocialLink"
 const Footer = () => (
   <Container>
     <Links>
-      <PageLink href="https://mchacks.ca/code-of-conduct">
+      <PageLink href="/code-of-conduct">
         Code of Conduct
       </PageLink>
-      <PageLink href="https://mchacks.ca/privacy">Privacy Policy</PageLink>
+      <PageLink href="/privacy">Privacy Policy</PageLink>
       {/* TODO
         <PageLink>
           Press Kit

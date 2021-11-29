@@ -131,6 +131,10 @@ export const HeroStyles = styled.section`
       font-size: 48px;
     }
 
+    .hero__heading-image {
+      max-width: 100%;
+    }
+
     .hero__topsubheading {
       text-align: center;
       padding-bottom: 0;
@@ -167,7 +171,7 @@ export const HeroStyles = styled.section`
       top: 0;
       right: 0;
       left: 0;
-    }
+    } 
   }
 
   @media only screen and (max-width: 410px) {

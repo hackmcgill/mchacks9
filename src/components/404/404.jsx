@@ -1,27 +1,10 @@
-import React from "react"
+import React, { useEffect } from "react"
+import { navigate } from "gatsby"
 
-import Container from "./Container"
-import Wrapper from "./Wrapper"
-import Image from "./Image"
-import Text from "./Text"
-import Button from "./Button"
-
-import NotFoundImg from "../../assets/images/designs/not-found.svg"
-
-const home = () => {
-  window.location = "/"
+// (2021-11-24) - The navigate function will be removed in the next major release of Gatsby.
+const NotFound = () => {
+    useEffect(() => navigate("/"))
+    return <></>
 }
-
-const NotFound = () => (
-  <Wrapper>
-    <Container>
-      <Image src={NotFoundImg} />
-      <Text>
-        <h2>Sorry! It looks like this page doesn't exist.</h2>
-      </Text>
-      <Button onClick={home}>Back to Home</Button>
-    </Container>
-  </Wrapper>
-)
 
 export default NotFound
