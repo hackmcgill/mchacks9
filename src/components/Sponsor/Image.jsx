@@ -6,7 +6,7 @@ export const Image = styled.img`
   position: relative;
   left: -120px;
   width: 558px;
-  top: 55px;
+  top: 30px;
   height: auto;
 
   @media only screen and (max-width: 1345px) {
@@ -14,7 +14,7 @@ export const Image = styled.img`
   }
 
   @media only screen and (max-width: 1118px) {
-    \display: none;
+    display: none;
   }
 `
 

@@ -1,35 +1,34 @@
 import React from "react"
 
-import Content from "./Content"
+import Container from "./Container"
 import Text from "./Text"
 import Image from "./Image"
 
 import AboutImg from "../../assets/images/designs/about.svg"
+import { Content } from "./Content"
 
 const About = ({ scrollRef }) => (
-  <div ref={scrollRef}>
+  <Container ref={scrollRef} style={{}}>
     <Content>
       <Text>
-        <h2>Canada’s original collegiate hackathon goes global!</h2>
+        <h2>Dream. Develop. Deploy!</h2>
         <p>
-          Each year McHacks is proud to welcome a diverse group of students from
-          across North America to Montreal for a jam-packed weekend of hacking.
-          This year, McHacks is going global! For 36 hours, the best and
-          brightest students from around the world will connect remotely and
-          build their dreams.
+          For 72 hours, over 500 of the boldest young minds across the Globe
+          come together for a jam-packed weekend of beginner-to-pro workshops,
+          decked-out hardware, delicious food, and some epic hacking.
         </p>
         <p>
-          Whether you're writing your first line of code, playing around with
+
+          This year we're going bigger than ever! We're hosting our hackathon both
+          online and in-person and you can choose which way you want to attend.
+          So whether you're writing your first line of code, playing around with
           APIs, or building the next blockchain, McHacks is the place for you.
-          We offer workshops, mentorship, and APIs to get you started, and we’re
-          working hard to make sure everything you need for your next big hack
-          is accessible from home. We hope you’ll join us remotely this winter
-          for an exciting eighth edition of Canada’s favorite hackathon!
+          We'll see you this January at year 9 of Canada's original collegiate hackathon!
         </p>
       </Text>
       <Image src={AboutImg} />
     </Content>
-  </div>
+  </Container>
 )
 
 export default About

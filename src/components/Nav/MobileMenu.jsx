@@ -5,7 +5,7 @@ export const MobileMenu = {
     position: "fixed",
     width: "30px",
     height: "25px",
-    top: "30px",
+    top: "34px",
     right: "30px",
   },
   bmBurgerBars: {
@@ -14,7 +14,7 @@ export const MobileMenu = {
     height: "3.5px",
   },
   bmBurgerBarsHover: {
-    background: styleVars.hackBlack60,
+    background: styleVars.darkYellow,
   },
   bmCrossButton: {
     height: "30px",
@@ -24,7 +24,7 @@ export const MobileMenu = {
     outline: "none",
   },
   bmCross: {
-    background: styleVars.hackBlack40,
+    background: styleVars.hackBlack,
     height: "5px",
     width: "30px",
     top: "5px",
@@ -34,16 +34,17 @@ export const MobileMenu = {
   bmMenuWrap: {
     position: "fixed",
     height: "100%",
+    top: '0',
   },
   bmMenu: {
-    background: styleVars.hackWhite,
+    background: styleVars.hackBlack10,
     padding: "2.5em 1.5em 0",
   },
   bmMorphShape: {
     fill: "#373a47",
   },
   bmItemList: {
-    color: styleVars.darkYellow,
+    color: styleVars.yellow,
     padding: "0.8em",
     top: "8em",
     display: "grid",
@@ -55,8 +56,9 @@ export const MobileMenu = {
   bmItem: {
     textAlign: "center",
     lineHeight: "7rem",
-    fontDize: "36px",
+    fontSize: "36px",
     padding: "40px",
+    color: styleVars.hackBlack,
   },
   bmOverlay: {
     background: "rgba(0, 0, 0, 0.3)",

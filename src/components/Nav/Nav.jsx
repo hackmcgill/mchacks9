@@ -31,12 +31,12 @@ const Nav = ({
     return () => document.removeEventListener("scroll", handleScroll)
   }, [])
 
-  const NavItems = () => (
+  const NavItems = (mobile) => (
     <>
-      <NavLink onClick={scrollToAbout}>About</NavLink>
-      <NavLink onClick={scrollToSponsor}>Sponsor</NavLink>
-      <NavLink onClick={scrollToFaq}>FAQ</NavLink>
-      <NavLink href="https://app.mchacks.ca">Apply</NavLink>
+      <NavLink onClick={scrollToAbout} mobile={mobile}>About</NavLink>
+      <NavLink onClick={scrollToSponsor} mobile={mobile}>Sponsor</NavLink>
+      <NavLink onClick={scrollToFaq} mobile={mobile}>FAQ</NavLink>
+      <NavLink href="https://app.mchacks.ca" mobile={mobile}>Apply</NavLink>
     </>
   )
   return (
@@ -48,7 +48,7 @@ const Nav = ({
           </Link>
         </IconContainer>
         <Links hasBorder={hasBorder}>
-          {NavItems()}
+          {NavItems(false)}
           <div class="Nav__socials">
             <SocialMediaBar />
           </div>
@@ -58,7 +58,7 @@ const Nav = ({
         </Links>
       </div>
       <Menu isOpen={true} styles={MobileMenu}>
-        {NavItems()}
+        {NavItems(true)}
       </Menu>
     </Container>
   )

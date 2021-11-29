@@ -2,7 +2,7 @@ import React from "react"
 
 import Container from "./Container"
 import Text from "./Text"
-import Content from "../About/Content"
+import Content from "./Content"
 
 const Privacy = () => (
   <Container>
