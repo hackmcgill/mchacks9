@@ -102,10 +102,10 @@ const CodeOfConduct = () => (
           the Co-Directors below:
           <ul>
             <li>
-              <b>Idil Ates</b>: (514) 409-7463{" "}
+              <b>Agnes Totschnig</b>: (438) 969-0186{" "}
             </li>
             <li>
-              <b>Elisa Branson</b>: (705) 790-8412
+              <b>Logan Ralston</b>: (908) 328-9155
             </li>
           </ul>
           You can also email us at&nbsp;
