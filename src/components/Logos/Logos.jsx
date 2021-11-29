@@ -8,6 +8,9 @@ import * as COLORS from "../variable"
 
 // import ads from "../../assets/images/sponsor/Ads logo.png"
 import aus from "../../assets/images/sponsor/aus.png"
+import amazon from "../../assets/images/sponsor/amazon.png"
+import aws from "../../assets/images/sponsor/aws.png"
+import brivia from "../../assets/images/sponsor/brivia.jpg"
 import cisco from "../../assets/images/sponsor/cisco.svg"
 import google from "../../assets/images/sponsor/google.svg"
 import gorilla from "../../assets/images/sponsor/GG_WT_Vert_RGB.svg"
@@ -16,6 +19,7 @@ import indico from "../../assets/images/sponsor/indico-logo-final-black.png"
 import jetBrains from "../../assets/images/sponsor/jetbrains-variant-3.png"
 import manulife from "../../assets/images/sponsor/manulife.svg"
 import microsoft from "../../assets/images/sponsor/microsoft.svg"
+import mistplay from "../../assets/images/sponsor/mistplay.png"
 import netlify from "../../assets/images/sponsor/full-logo-light.png"
 import nuance from "../../assets/images/sponsor/nuance.png"
 import rbc from "../../assets/images/sponsor/rbc.svg"
@@ -51,14 +55,26 @@ const Logos = ({ scrollRef }) => (
     >
       Our Sponsors
     </Content>
-    {/* Tier 1/Mega sponsors */}
+
+    {/* Tier 0/Terra sponsors */}
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
-        href="https://www.novartis.ca/en/careers"
+        href="https://aws.amazon.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={novartis} style={{ width: "80%" }} />
+        <Image src={aws} style={{ width: "2000px" }} />
+      </NavLink>
+    </Content>
+
+    {/* Tier 1/Mega sponsors */}
+    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
+      <NavLink
+        href="https://briviagroup.ca/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={brivia} style={{ width: "50%" }} />
       </NavLink>
     </Content>
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
@@ -78,14 +94,35 @@ const Logos = ({ scrollRef }) => (
     {/* Tier2/kilo sponsors */}
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
-        href="https://www.business-in-a-box.com/"
+        href="https://www.amazon.ca/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={biztree} style={{ width: "700px" }} />
+        <Image src={amazon} style={{ width: "700px" }} />
       </NavLink>
     </Content>
-    <Content style={{ justifyContent: "space-evenly" }}>
+    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
+      <NavLink
+        href="https://www.ivey.uwo.ca/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={ivey} style={{ width: "700px" }} />
+      </NavLink>
+    </Content>
+
+    {/* Tier 3/Byte sponsors */}
+    <Content style={{ justifyContent: "space-evenly", alignItems: "center" }}>
+      <NavLink
+        href="https://www.mistplay.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src={mistplay}
+          style={{ width: "100%", maxWidth: "250px", height: "50px" }}
+        />
+      </NavLink>
       <NavLink
         href="https://www.fdmgroup.com/en-ca/ca-graduates/"
         target="_blank"
@@ -97,71 +134,15 @@ const Logos = ({ scrollRef }) => (
         />
       </NavLink>
       <NavLink
-        href="https://gorillagroup.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image
-          src={gorilla}
-          style={{ width: "100%", maxWidth: "250px", height: "50px" }}
-        />
-      </NavLink>
-      <NavLink
-        href="https://balsamiq.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image src={balsamiq} style={{ minWidth: "100%", height: "50px" }} />
-      </NavLink>
-    </Content>
-    {/* Tier 3/Byte sponsors */}
-    <Content style={{ justifyContent: "space-evenly", alignItems: "center" }}>
-      <NavLink
-        href="https://www.ludia.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image
-          src={ludia}
-          style={{ width: "100%", maxWidth: "80px", transform: "scale(1.7)" }}
-        />
-        {/* need an image link for this company */}
-      </NavLink>
-      <NavLink
-        href="https://flinks.io/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image src={flinks} style={{ width: "100%", maxWidth: "150px" }} />
-      </NavLink>
-      <NavLink
-        href="https://edu.google.com/programs/?modal_active=none/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image src={googleCloud} style={{ width: "100%", maxWidth: "200px" }} />
-      </NavLink>
-      <NavLink
         href="http://hackp.ac/mlh-stickermule-hackathons"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Image src={stickerMule} style={{ width: "100%", maxWidth: "150px" }} />
       </NavLink>
-      <NavLink
-        href="https://connect.bigbang360.com/mchacks-21-careers"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image
-          src={bigbang}
-          style={{ width: "100%", maxWidth: "100px", transform: "scale(1.7)" }}
-        />
-        {/* need an image link for this company */}
-      </NavLink>
     </Content>
     {/* Tier 4/In-Kind sponsors */}
-    <Content style={{ justifyContent: "space-evenly" }}>
+    <Content style={{ justifyContent: "space-evenly", alignItems: "center" }}>
       <NavLink
         href="https://www.jetbrains.com/"
         target="_blank"
@@ -170,39 +151,11 @@ const Logos = ({ scrollRef }) => (
         <Image src={jetBrains} style={{ width: "100%", maxWidth: "50px" }} />
       </NavLink>
       <NavLink
-        href="https://www.netlify.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image src={netlify} style={{ width: "100%", maxWidth: "75px" }} />
-      </NavLink>
-      <NavLink
-        href="https://www.echoar.xyz/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image src={echoar} style={{ width: "100%", maxWidth: "75px" }} />
-      </NavLink>
-      <NavLink
-        href="https://www.voiceflow.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image src={voiceflow} style={{ width: "100%", maxWidth: "75px" }} />
-      </NavLink>
-      <NavLink
         href="https://www.twilio.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Image src={twilio} style={{ width: "100%", maxWidth: "75px" }} />
-      </NavLink>
-      <NavLink
-        href="https://www.ibwave.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image src={ibwave} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
       <NavLink
         href="https://www.vercel.com/?utm_source=mchacks7"
