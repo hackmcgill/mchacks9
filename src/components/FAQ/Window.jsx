@@ -22,7 +22,7 @@ export const Window = styled.div`
   background-size: cover;
 
   h2 {
-    color: ${styleVars.faqBlue1};
+    color: ${styleVars.prussianBlue};
     font-size: 36px;
     font-weight: 400;
   }

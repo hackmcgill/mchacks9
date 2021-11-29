@@ -22,7 +22,7 @@ const Container = styled.div`
   }
 
   .QuestionBox {
-    border: 1px solid ${styleVars.faqBlue2};
+    border: 1px solid ${styleVars.anakiwaBlue};
     padding: 10px 10px;
     border-radius: 5px;
     text-align: left;
@@ -36,7 +36,7 @@ const Container = styled.div`
     background-color: white;
 
     a {
-      color: ${styleVars.faqBlue1};
+      color: ${styleVars.prussianBlue};
     }
 
     .questionRow {

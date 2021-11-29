@@ -14,7 +14,7 @@ export const Text = styled.div`
   }
 
   p {
-    color: ${styleVars.textColor};
+    color: ${styleVars.hackBlack10};
     margin-top: 0;
     margin-bottom: 32px;
   }

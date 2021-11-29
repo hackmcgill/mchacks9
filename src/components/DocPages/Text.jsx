@@ -4,7 +4,7 @@ import * as styleVars from "../variable"
 export const Text = styled.div`
   margin-bottom: 1rem;
   padding: 26px;
-  color: ${styleVars.buttonColorText};
+  color: ${styleVars.prussianBlue};
 
   h1 {
     padding-top: 5rem;

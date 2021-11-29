@@ -6,8 +6,8 @@ export const Button = styled.button`
   font-weight: 400;
   font-size: 14px;
   text-transform: none;
-  background-color: ${styleVars.buttonColor};
-  color: ${styleVars.buttonColorText};
+  background-color: ${styleVars.yellow};
+  color: ${styleVars.prussianBlue};
   border-radius: 3.75em;
   border: none;
   transition: all 0.15s ease-in-out;
@@ -20,8 +20,8 @@ export const Button = styled.button`
   //   width: 175px;
 
   &:hover {
-    background-color: ${styleVars.buttonColorHover};
-    color: ${styleVars.buttonColorText};
+    background-color: ${styleVars.darkYellow};
+    color: ${styleVars.prussianBlue};
   }
 `
 
