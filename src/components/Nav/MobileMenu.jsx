@@ -32,7 +32,7 @@ export const MobileMenu = {
     borderRadius: "5px",
   },
   bmMenuWrap: {
-    width: "100%",
+    position: "fixed",
     height: "100%",
   },
   bmMenu: {
@@ -53,7 +53,6 @@ export const MobileMenu = {
     marginTop: "60px",
   },
   bmItem: {
-    color: styleVars.hackBlack20,
     textAlign: "center",
     lineHeight: "7rem",
     fontDize: "36px",
