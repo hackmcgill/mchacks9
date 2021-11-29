@@ -4,30 +4,28 @@ import * as styleVars from "../variable"
 export const Text = styled.div`
   margin-bottom: 1rem;
   padding: 26px;
-  color: ${styleVars.buttonColorText};
+  color: ${styleVars.hackBlack};
 
   h1 {
     padding-top: 5rem;
-    color: ${styleVars.darkBlue};
+    color: ${styleVars.darkSecondaryBlue};
     font-size: 5rem;
     font-weight: 400;
   }
 
   h2 {
-    color: ${styleVars.darkBlue};
+    color: ${styleVars.lightSecondaryBlue};
     font-size: 3rem;
     font-weight: 400;
     margin-bottom: 0.22rem;
   }
   
   a {
-    //f0f3bd, ebebeb, c8bfc7, E9B872, f8c537, 92dce5, FFD275
     color: ${styleVars.darkYellow};
   }
 
   b {
-    //f0f3bd, ebebeb, c8bfc7, E9B872, f8c537, 92dce5, FFD275
-    color: ${styleVars.darkYellow};
+    color: ${styleVars.hackBlack};
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {

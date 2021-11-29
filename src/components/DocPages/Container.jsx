@@ -4,7 +4,7 @@ import * as styleVars from "../variable"
 export const Container = styled.section`
   display: flex;
   max-width: 100%;
-  align-items: center;
+  justify-content: center;
   background: ${styleVars.hackWhite};
 `
 
