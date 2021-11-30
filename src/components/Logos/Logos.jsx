@@ -57,7 +57,7 @@ const Logos = ({ scrollRef }) => (
     </Content>
 
     {/* Tier 0/Terra sponsors */}
-    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
+    {/* <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://aws.amazon.com/"
         target="_blank"
@@ -65,7 +65,7 @@ const Logos = ({ scrollRef }) => (
       >
         <Image src={aws} style={{ width: "2000px" }} />
       </NavLink>
-    </Content>
+    </Content> */}
 
     {/* Tier 1/Mega sponsors */}
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
