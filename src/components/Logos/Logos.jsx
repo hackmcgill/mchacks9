@@ -77,7 +77,7 @@ const Logos = ({ scrollRef }) => (
         <Image src={brivia} style={{ width: "50%" }} />
       </NavLink>
     </Content>
-    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
+    {/* <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://www.huawei.com/ca/"
         target="_blank"
@@ -85,7 +85,7 @@ const Logos = ({ scrollRef }) => (
       >
         <Image src={huawei} style={{ width: "700px" }} />
       </NavLink>
-    </Content>
+    </Content> */}
     {/* <Content style={{ textAlign: "center", justifyContent: "space-around" }}>
       <NavLink href="https://adgear.com/en/" target="_blank">
         <Image src={ads} style={{ minWidth: "80%" }} />
