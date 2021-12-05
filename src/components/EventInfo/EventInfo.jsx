@@ -23,7 +23,7 @@ const EventInfo = () => {
             You can choose to attend McHacks either virtually or in-person in Montreal.
           </p>
           <p>
-            Covid saftey protocols will be in place at the in-person edition of McHacks in order
+            Covid safety protocols will be in place at the in-person edition of McHacks in order
             to protect the safety of everyone at our event. These include vacine passport checks
             at sign-in, limited capacity, social distancing, and mask-wearing.
           </p>
