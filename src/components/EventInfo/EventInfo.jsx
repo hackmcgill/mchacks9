@@ -24,7 +24,7 @@ const EventInfo = () => {
           </p>
           <p>
             Covid safety protocols will be in place at the in-person edition of McHacks in order
-            to protect the safety of everyone at our event. These include vacine passport checks
+            to protect the safety of everyone at our event. These include vaccine passport checks
             at sign-in, limited capacity, social distancing, and mask-wearing.
           </p>
           <p>
