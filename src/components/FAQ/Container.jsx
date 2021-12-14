@@ -7,22 +7,6 @@ const Container = styled.div`
   position: relative;
   height: 1080px;
 
-  @media only screen and (max-width: 1300px) {
-    height 990px;
-  }
-
-  @media only screen and (max-width: 1000px) {
-    height 900px;
-  }
-
-  @media only screen and (max-width: 900px) {
-    height: 1430px;
-  }
-
-  @media only screen and (max-width: 400px) {
-    height: 1520px;
-  }
-
   .QuestionBox {
     border: 1px solid ${styleVars.faqBlue2};
     padding: 10px 10px;
@@ -90,6 +74,26 @@ const Container = styled.div`
         opacity: 90%;
       }
     }
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    height 990px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    height 900px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    height: 1430px;
+  }
+
+  @media only screen and (max-width: 425px) {
+    height: 1710px;
+  }
+
+  @media only screen and (max-width: 325px) {
+    height: 1980px;
   }
 `
 

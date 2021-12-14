@@ -101,6 +101,8 @@ export const Window = styled.div`
       max-height: none;
       padding-top: 80px;
       padding-bottom: 100px;
+      padding-left: 40px;
+      padding-right: 40px;
     }
     
     .grid {
