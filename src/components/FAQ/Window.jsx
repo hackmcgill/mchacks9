@@ -83,9 +83,9 @@ export const Window = styled.div`
     }
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1000px) {
     background-image: none;
-    background-color: ${styleVars.hackWhite}aa;
+    background-color: ${styleVars.hackWhite};
 
     border-radius: 32px;
     max-height: none;
@@ -107,6 +107,7 @@ export const Window = styled.div`
       position: initial;
       display: flex;
       height: initial;
+      width: 100%;
       flex-flow: column wrap;
       align-content: center;
       max-width: 500px;
@@ -121,12 +122,6 @@ export const Window = styled.div`
       margin: 20px;
       box-sizing: border-box;
     }
-  }
-
-  @media only screen and (max-width: 840px) {
-    width: 100%;
-    max-width: 100%;
-    border-radius: 0;
   }
 `
 export default Window
