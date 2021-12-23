@@ -13,7 +13,7 @@ const About = ({ scrollRef }) => (
       <Text>
         <h2>Dream. Develop. Deploy!</h2>
         <p>
-          For 72 hours, over 500 of the boldest young minds across the Globe
+          For 36 hours, over 500 of the boldest young minds across the Globe
           come together for a jam-packed weekend of beginner-to-pro workshops,
           decked-out hardware, delicious food, and some epic hacking.
         </p>
