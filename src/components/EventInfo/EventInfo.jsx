@@ -1,7 +1,7 @@
 import React from "react"
 import * as styleVars from "../variable"
 
-import Event49Img from "../../assets/images/event/McHacks-49.jpg"
+import Event49Img from "../../assets/images/event/McHacks-49-min.jpg"
 import Container from "./Container"
 import Image from "./Image"
 import Text from "./Text"
