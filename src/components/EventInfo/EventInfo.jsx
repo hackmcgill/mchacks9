@@ -28,7 +28,7 @@ const EventInfo = () => {
             at sign-in, limited capacity, social distancing, and mask-wearing.
           </p>
           <p>
-            Whichever way you choose to attend, you'll get the full McHacks experience of 36 hours of hacking, networking, &amp; workshops.
+            Whichever way you choose to attend, you'll get the full McHacks experience of innovation, networking, and workshops.
           </p>
         </Text>
       </Container>
