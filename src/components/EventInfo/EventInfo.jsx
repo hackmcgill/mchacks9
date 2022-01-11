@@ -1,16 +1,16 @@
 import React from "react"
 import * as styleVars from "../variable"
 
-import Event49Img from "../../assets/images/event/McHacks-49.jpg"
-import Container from "./Container"
-import Image from "./Image"
-import Text from "./Text"
-import Seperator from "./Seperator"
+// import Event49Img from "../../assets/images/event/McHacks-49.jpg"
+// import Container from "./Container"
+// import Image from "./Image"
+// import Text from "./Text"
+// import Seperator from "./Seperator"
 
 const EventInfo = () => {
   return (
     <div style={{backgroundColor: styleVars.darkSecondaryBlue}}>
-      <Container>
+      {/*<Container>
         <Image src={Event49Img}
           width={840}
           height={560}
@@ -31,7 +31,7 @@ const EventInfo = () => {
             Whichever way you choose to attend, you'll get the full McHacks experience of innovation, networking, and workshops.
           </p>
         </Text>
-      </Container>
+      </Container>*/}
     </div>
   )
 }
