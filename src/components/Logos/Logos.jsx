@@ -43,6 +43,9 @@ import echoar from "../../assets/images/sponsor/new/echoAR.png"
 import neoregan from "../../assets/images/sponsor/new/Neo Regan.png"
 import googleCloud from "../../assets/images/sponsor/new/google_cloud.png"
 import novartis from "../../assets/images/sponsor/new/Novartis.png"
+import ovhCloud from "../../assets/images/sponsor/OVHcloud.png"
+import secureworks from "../../assets/images/sponsor/secureworksLogo.png"
+import frontRowVentures from "../../assets/images/sponsor/frontRowVenturesLogo.png"
 
 const Logos = ({ scrollRef }) => (
   <Container ref={scrollRef}>
@@ -70,11 +73,29 @@ const Logos = ({ scrollRef }) => (
     {/* Tier 1/Mega sponsors */}
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
+        href="https://www.secureworks.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={secureworks} style={{ width: "50%" }} />
+      </NavLink>
+    </Content>
+    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
+      <NavLink
         href="https://briviagroup.ca/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Image src={brivia} style={{ width: "50%" }} />
+      </NavLink>
+    </Content>
+    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
+      <NavLink
+        href="https://www.ovhcloud.com/en-ca/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={ovhCloud} style={{ width: "50%" }} />
       </NavLink>
     </Content>
     {/* <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
@@ -163,6 +184,13 @@ const Logos = ({ scrollRef }) => (
         rel="noopener noreferrer"
       >
         <Image src={vercel} style={{ width: "100%", maxWidth: "75px" }} />
+      </NavLink>
+      <NavLink
+        href="https://www.vercel.com/?utm_source=mchacks7"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={frontRowVentures} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
     </Content>
   </Container>
