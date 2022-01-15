@@ -26,7 +26,7 @@ const Sponsor = ({ scrollRef }) => (
         </p>
         <p>
           Spend a weekend with McHacks and witness tomorrow’s leaders using your
-          technologies to solve real problems from the ground up. We've got a
+          technologies to solve real problems from the ground up. We've got a vitual
           table with your name on it!
         </p>
         <Button onClick={mailTo}>Become a Sponsor</Button>

@@ -40,7 +40,7 @@ const Hero = () => (
           <ArrowStyles src={ArrowImg} style={{ left: 25 }} /> */}
         </div>
         <Button onClick={apply}>Apply Now →</Button>
-        <p className="hero__subheading">Attend virtually or in-person.</p>
+        <p className="hero__subheading">McHacks will be a virtual event this year.</p>
         {/*<div className="hero__email">
           <SignUpForm/>
         </div>*/}
