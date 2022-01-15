@@ -186,7 +186,7 @@ const Logos = ({ scrollRef }) => (
         <Image src={vercel} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
       <NavLink
-        href="https://www.vercel.com/?utm_source=mchacks7"
+        href="https://frontrow.ventures/"
         target="_blank"
         rel="noopener noreferrer"
       >
