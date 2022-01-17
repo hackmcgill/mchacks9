@@ -73,7 +73,7 @@ const Logos = ({ scrollRef }) => (
     {/* Tier 1/Mega sponsors */}
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
-        href="https://www.secureworks.com/"
+        href="https://dell.wd1.myworkdayjobs.com/External/job/Remote---Canada-Quebec/Intern-Software-Engineer---Platform-Engineering--Secureworks----100--Remote-Canada-US--Work-From-Home---_R160029"
         target="_blank"
         rel="noopener noreferrer"
       >
