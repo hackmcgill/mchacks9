@@ -9,7 +9,7 @@ const LiveContainer = styled(Container)`
   margin: auto;
   margin-top: 12rem;
   margin-bottom: 12rem;
-  max-width: 50%;
+  max-width: 600px;
   padding: 26px;
 
   h2 {
@@ -24,8 +24,12 @@ const LiveContainer = styled(Container)`
     text-align: left;
     font-size: 1.1em;
     cursor: pointer;
-    margin: 20px;
     box-sizing: border-box;
+    margin: 20px auto 20px auto;
+  }
+
+  @media {
+    height: auto;
   }
 `
 

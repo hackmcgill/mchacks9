@@ -77,15 +77,15 @@ const Container = styled.div`
   }
   
   @media only screen and (max-width: 1300px) {
-    height 990px;
+    height: 990px;
   }
 
   @media only screen and (max-width: 1000px) {
-    height 900px;
+    height: 1350px;
   }
 
   @media only screen and (max-width: 900px) {
-    height: 1430px;
+    height: 1440px;
   }
 
   @media only screen and (max-width: 425px) {
