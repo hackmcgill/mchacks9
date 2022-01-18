@@ -6,14 +6,14 @@ export const Container = styled.section`
   text-align: center;
   margin: auto;
   margin-bottom: 100px;
-  margin-top: 100px;
+  margin-top: 130px;
 
   &.hidden {
     display: none !important;
   }
 
   h2 {
-    color: ${styleVars.colorHackRed};
+    color: ${styleVars.darkSecondaryBlue};
     font-size: 3rem;
     font-weight: 400;
     margin-bottom: 0px;
@@ -38,14 +38,14 @@ export const Container = styled.section`
       flex: 1;
       cursor: pointer;
       border-bottom: 2px solid ${styleVars.hackBlack20};
-      padding: 20px 0 10px 0;
+      padding: 35px 0 10px 0;
       font-size: 1.2em;
       color: ${styleVars.hackBlack60};
       font-weight: normal;
 
       &.active {
         color: ${styleVars.hackBlack80};
-        border-color: ${styleVars.colorHackRed};
+        border-color: ${styleVars.yellow};
       }
     }
   }
