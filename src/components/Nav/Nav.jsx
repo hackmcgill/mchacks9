@@ -13,7 +13,7 @@ import MobileMenu from "./MobileMenu"
 import Logo from "../../assets/images/logos/mchacks-martlet.svg"
 import SocialMediaBar from "../SocialMedia/SocialMediaBar"
 
-import MLHBanner from "../../assets/images/mlh-trust-badge-2021-white.svg"
+import MLHBanner from "../../assets/images/mlh-trust-badge-2022-white.svg"
 
 const Nav = ({
   scrollToAbout = () => {},
