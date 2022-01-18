@@ -4,8 +4,9 @@ import * as styleVars from "../variable"
 export const Text = styled.div`
   margin-bottom: 1rem;
   padding: 26px;
+  font-family: "Hind Siliguri", sans-serif;
   h2 {
-    color: #f2463a;
+    color: ${styleVars.darkSecondaryBlue};
     font-size: 3rem;
     font-weight: 400;
     margin-bottom: 0.22rem;
@@ -15,12 +16,10 @@ export const Text = styled.div`
     }
   }
   b {
-    color: #f2463a;
+    color: ${styleVars.hackBlack};
   }
   a {
-    :hover {
-      color: #f2463a;
-    }
+    color: ${styleVars.darkYellow};
   }
 `
 

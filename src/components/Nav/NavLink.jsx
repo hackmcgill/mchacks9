@@ -11,7 +11,7 @@ export const NavLink = styled.a`
   &:focus,
   &:hover,
   &:active {
-    color: ${styleVars.yellow};
+    color: ${props => props.mobile ? styleVars.darkSecondaryBlue : styleVars.yellow};
     background: transparent;
   }
 `
