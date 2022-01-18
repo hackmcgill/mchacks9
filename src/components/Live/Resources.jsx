@@ -1,11 +1,13 @@
 import React from "react"
 
-import Container from "../FAQ/Container"
+import LiveContainer from "./LiveContainer"
 import Question from "../FAQ/Question"
+import QuestionGroup from "../FAQ/QuestionGroup"
 
 const Resources = ({ visible }) => (
-  <Container className={!visible ? "hidden" : ""}>
+  <LiveContainer className={!visible ? "hidden" : ""}>
     <h2>Sponsor Resources</h2>
+    <QuestionGroup>
     <Question question="Balsamiq API">
       Balsamiq Wireframes is the perfect first UX design tool for anyone
       interested in getting into UX. It's by far the most approachable: you just
@@ -122,7 +124,8 @@ const Resources = ({ visible }) => (
       </a>
       .
     </Question>
-  </Container>
+    </QuestionGroup>
+  </LiveContainer>
 )
 
 export default Resources

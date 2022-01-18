@@ -42,7 +42,7 @@ const LiveNav = ({ switchPage = () => {}, activePage }) => {
     </>
   )
   return (
-    <Container>
+    <Container className="dark-background">
       <IconContainer>
         <Link to="/">
           <Icon src={Logo} />
