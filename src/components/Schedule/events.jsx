@@ -53,7 +53,7 @@ const events = [
           <li> Collaborating via GitHub</li>
           <li> Hosting a Website</li>
         </ol>
-      </div>, // TODO: add subjects
+      </div>,
   },
   {
     day: 1,
@@ -154,6 +154,25 @@ const events = [
     startTime: "6:30 PM",
     description:
       "Missed Jeopardy this week? Or just want to be a mukbanger? Come join us at the dinner table! We'll be holding a session of general, programming, and McHacks-specific trivia over Kahoot while we eat.",
+  },
+  {
+    day: 2,
+    name: "Paint With MLH and Bob Ross",
+    type: "Social",
+    location: "Discord",
+    startTime: "7:30 PM",
+    endTime: "8:30 PM",
+    description:
+      "Take a break from hacking with Jacklyn from MLH! We'll be attempting to collectively recreate one of Bob Rosses masterpieces with (hopefully) great success. This event is just for fun, so come and meet some other hackers and relax!",
+  },
+  {
+    day: 2,
+    name: "Typing Races",
+    type: "Game",
+    location: "Discord",
+    startTime: "9:30 PM",
+    description:
+      "Warm up those fingers, race mode activated. Ready, set, go...",
   },
   {
     day: 2,
