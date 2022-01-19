@@ -8,6 +8,7 @@ import {
   faBus,
   faBed,
   faCog,
+  faMugHot,
 } from "@fortawesome/free-solid-svg-icons"
 
 const Event = ({
@@ -16,14 +17,17 @@ const Event = ({
   endTime,
   name,
   location,
+  link,
   subtitle,
   description,
 }) => {
   let logo = <div></div>
   if (type === "Workshop") {
     logo = <FontAwesomeIcon icon={faCog} />
-  } else if (type === "Activity") {
+  } else if (type === "Game") {
     logo = <FontAwesomeIcon icon={faGamepad} />
+  } else if (type === "Social") {
+    logo = <FontAwesomeIcon icon={faMugHot} />
   } else if (type === "Food") {
     logo = <FontAwesomeIcon icon={faPizzaSlice} />
   } else if (type === "Main Event") {
@@ -40,7 +44,7 @@ const Event = ({
         <div className="start">
           {startTime}
           {endTime ? <span> - {endTime}</span> : ""}
-          {" ET"}
+          {startTime ? (startTime.includes("am") || startTime.includes("pm") ? " ET" : "") : "TBD"}
           <br />
           <div className="activityType">{type.toUpperCase()}</div>
         </div>
@@ -52,7 +56,9 @@ const Event = ({
             <small>{subtitle}</small>
           </div>
           {description ? <div className="description">{description}</div> : ""}
-          {location ? <div className="location"># {location}</div> : ""}
+          {location ? (link ? <div className="location"># <a href={link}>{location}</a> </div> 
+                            : <div className="location"># {location}</div>) 
+                    : ""}
         </div>
       </div>
       <div className="icon">{logo}</div>
