@@ -62,7 +62,7 @@ const events = [
     location: "Discord",
     startTime: "11:00 PM",
     description:
-      "Show off your team's gaming expertise by dominating the leaderboard in a variety of online games. We'll be playing rounds of scribbl.io, GeoGuesser, Set, and more, so come prepared!",
+      <div>Show off your team's gaming expertise by dominating the leaderboard in a variety of online games. We'll be playing rounds of <a href="https://skribbl.io/"> skribbl.io</a>, GeoGuesser, Set, and more, so come prepared!</div>,
   },
   {
     day: 2,
