@@ -128,33 +128,35 @@ export const Container = styled.section`
 
     &.type-main-event {
       .icon {
-        color: ${styleVars.colorHackRed};
+        color: ${styleVars.darkYellow};
       }
       .activityType {
-        color: ${styleVars.colorHackRed};
+        color: ${styleVars.darkYellow};
       }
     }
 
-    &.type-activity {
+    &.type-workshop {
       .icon {
-        color: ${styleVars.colorPurplePale};
+        color: ${styleVars.yellow};
       }
       .activityType {
-        color: ${styleVars.colorPurple};
+        color: ${styleVars.yellow};
       }
     }
 
+    &.type-social, 
+    &.type-game,
     &.type-food,
-    &.type-workshop,
     &.type-travel,
     &.type-rest {
       .icon {
-        color: ${styleVars.colorPurple};
+        color: ${styleVars.darkSecondaryBlue};
       }
       .activityType {
-        color: ${styleVars.colorPurple};
+        color: ${styleVars.darkSecondaryBlue};
       }
     }
+    
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {

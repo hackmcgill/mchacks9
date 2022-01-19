@@ -8,7 +8,7 @@ import Event from "./Event"
 import events from "./events"
 
 const Schedule = ({ visible }) => {
-  const [day, _setDay] = useState(3)
+  const [day, _setDay] = useState(1)
   const setDay = newDay => {
     if (newDay !== day) {
       _setDay(newDay)
@@ -29,7 +29,7 @@ const Schedule = ({ visible }) => {
             role="button"
             tabIndex={0}
           >
-            January 29
+            Friday, Jan. 21
           </div>
           <div
             className={"DayTab " + (day === 2 ? "active" : "")}
@@ -38,7 +38,7 @@ const Schedule = ({ visible }) => {
             role="button"
             tabIndex={0}
           >
-            January 30
+            Saturday, Jan. 22
           </div>
           <div
             className={"DayTab " + (day === 3 ? "active" : "")}
@@ -47,7 +47,7 @@ const Schedule = ({ visible }) => {
             role="button"
             tabIndex={0}
           >
-            January 31
+            Sunday, Jan. 23
           </div>
         </div>
       </Sticky>
