@@ -121,8 +121,6 @@ const Logos = ({ scrollRef }) => (
       >
         <Image src={amazon} style={{ width: "700px" }} />
       </NavLink>
-    </Content>
-    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://www.ivey.uwo.ca/"
         target="_blank"
@@ -130,10 +128,6 @@ const Logos = ({ scrollRef }) => (
       >
         <Image src={ivey} style={{ width: "700px" }} />
       </NavLink>
-    </Content>
-
-    {/* Tier 3/Byte sponsors */}
-    <Content style={{ justifyContent: "space-evenly", alignItems: "center" }}>
       <NavLink
         href="https://www.mistplay.com/"
         target="_blank"
@@ -141,17 +135,22 @@ const Logos = ({ scrollRef }) => (
       >
         <Image
           src={mistplay}
-          style={{ width: "100%", maxWidth: "250px", height: "50px" }}
+          style={{ width: "800px"}}
         />
       </NavLink>
-      <NavLink
+    </Content>
+
+    {/* Tier 3/Byte sponsors */}
+    {/* Tier 4/In-Kind sponsors */}
+    <Content style={{ justifyContent: "space-evenly", alignItems: "center" }}>
+    <NavLink
         href="https://www.fdmgroup.com/en-ca/ca-graduates/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Image
           src={fdm}
-          style={{ width: "100%", maxWidth: "250px", height: "50px" }}
+          style={{ width: "100%", maxWidth: "75px" }}
         />
       </NavLink>
       <NavLink
@@ -161,15 +160,12 @@ const Logos = ({ scrollRef }) => (
       >
         <Image src={stickerMule} style={{ width: "100%", maxWidth: "150px" }} />
       </NavLink>
-    </Content>
-    {/* Tier 4/In-Kind sponsors */}
-    <Content style={{ justifyContent: "space-evenly", alignItems: "center" }}>
       <NavLink
         href="https://www.jetbrains.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={jetBrains} style={{ width: "100%", maxWidth: "50px" }} />
+        <Image src={jetBrains} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
       <NavLink
         href="https://www.twilio.com/"
