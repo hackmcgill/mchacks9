@@ -100,8 +100,15 @@ export const Container = styled.section`
           color: ${styleVars.hackBlack70};
           font-family: "Hind Siliguri", sans-serif;
           margin-top: 8px;
+          a {
+            color:  ${styleVars.darkSecondaryBlue};
+          }
+          ol {
+            margin-top: 4px;
+          }
         }
 
+        .prize,
         .location {
           margin-top: 8px;
           font-family: "Hind Siliguri", sans-serif;

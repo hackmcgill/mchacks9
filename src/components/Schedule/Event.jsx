@@ -17,9 +17,9 @@ const Event = ({
   endTime,
   name,
   location,
-  link,
   subtitle,
   description,
+  prize,
 }) => {
   let logo = <div></div>
   if (type === "Workshop") {
@@ -56,9 +56,8 @@ const Event = ({
             <small>{subtitle}</small>
           </div>
           {description ? <div className="description">{description}</div> : ""}
-          {location ? (link ? <div className="location"># <a href={link}>{location}</a> </div> 
-                            : <div className="location"># {location}</div>) 
-                    : ""}
+          {prize ? <div className="prize">Prize: {prize}</div> : ""}
+          {location ? <div className="location"># {location}</div> : ""}
         </div>
       </div>
       <div className="icon">{logo}</div>
