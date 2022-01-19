@@ -2,7 +2,7 @@ const events = [
   {
     day: 1,
     name: "Game Tournament",
-    type: "Social",
+    type: "Game",
     location: "",
     startTime: "11:00 PM",
     endTime: "",
@@ -12,7 +12,7 @@ const events = [
   {
     day: 2,
     name: "Game Tournament",
-    type: "Social",
+    type: "Game",
     location: "",
     startTime: "11:00 PM",
     endTime: "",
@@ -72,7 +72,7 @@ const events = [
   {
     day: 2,
     name: "Dinner and Trivia",
-    type: "",
+    type: "Social",
     location: "",
     startTime: "6:30 PM",
     endTime: "",

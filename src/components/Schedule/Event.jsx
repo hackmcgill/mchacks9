@@ -8,6 +8,7 @@ import {
   faBus,
   faBed,
   faCog,
+  faMugHot,
 } from "@fortawesome/free-solid-svg-icons"
 
 const Event = ({
@@ -23,8 +24,10 @@ const Event = ({
   let logo = <div></div>
   if (type === "Workshop") {
     logo = <FontAwesomeIcon icon={faCog} />
-  } else if (type === "Social") {
+  } else if (type === "Game") {
     logo = <FontAwesomeIcon icon={faGamepad} />
+  } else if (type === "Social") {
+    logo = <FontAwesomeIcon icon={faMugHot} />
   } else if (type === "Food") {
     logo = <FontAwesomeIcon icon={faPizzaSlice} />
   } else if (type === "Main Event") {

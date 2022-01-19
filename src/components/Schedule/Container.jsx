@@ -144,25 +144,19 @@ export const Container = styled.section`
       }
     }
 
-    &.type-social {
-      .icon {
-        color: ${styleVars.darkSecondaryBlue};
-      }
-      .activityType {
-        color: ${styleVars.darkSecondaryBlue};
-      }
-    }
-
+    &.type-social, 
+    &.type-game,
     &.type-food,
     &.type-travel,
     &.type-rest {
       .icon {
-        color: ${styleVars.lightSecondaryBlue};
+        color: ${styleVars.darkSecondaryBlue};
       }
       .activityType {
-        color: ${styleVars.lightSecondaryBlue};
+        color: ${styleVars.darkSecondaryBlue};
       }
     }
+    
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {
