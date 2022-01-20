@@ -53,13 +53,22 @@ const Logos = ({ scrollRef }) => (
       style={{
         fontSize: "5rem",
         justifyContent: "center",
-        color: COLORS.darkYellow,
+        color: COLORS.faqBlue1,
       }}
     >
       Our Sponsors
     </Content>
 
     {/* Tier 0/Terra sponsors */}
+     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
+      <NavLink
+        href="https://www.huawei.com/ca/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={huawei} style={{ width: "50%" }} />
+      </NavLink>
+    </Content> 
     {/* <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://aws.amazon.com/"
@@ -77,16 +86,17 @@ const Logos = ({ scrollRef }) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={secureworks} style={{ width: "50%" }} />
+        <Image src={secureworks} style={{ width: "40%" }} />
       </NavLink>
     </Content>
+    
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://briviagroup.ca/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={brivia} style={{ width: "50%" }} />
+        <Image src={brivia} style={{ width: "30%" }} />
       </NavLink>
     </Content>
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
@@ -95,18 +105,10 @@ const Logos = ({ scrollRef }) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={ovhCloud} style={{ width: "50%" }} />
+        <Image src={ovhCloud} style={{ width: "30%" }} />
       </NavLink>
     </Content>
-    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
-      <NavLink
-        href="https://www.huawei.com/ca/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image src={huawei} style={{ width: "50%" }} />
-      </NavLink>
-    </Content> 
+    
     {/* <Content style={{ textAlign: "center", justifyContent: "space-around" }}>
       <NavLink href="https://adgear.com/en/" target="_blank">
         <Image src={ads} style={{ minWidth: "80%" }} />
