@@ -44,7 +44,7 @@ const Event = ({
         <div className="start">
           {startTime}
           {endTime ? <span> - {endTime}</span> : ""}
-          {startTime ? (startTime.includes("am") || startTime.includes("pm") ? " ET" : "") : "TBD"}
+          {startTime ? (startTime.toLowerCase().includes("am") || startTime.toLowerCase().includes("pm") ? " ET" : "") : "TBD"}
           <br />
           <div className="activityType">{type.toUpperCase()}</div>
         </div>
