@@ -59,7 +59,7 @@ const Logos = ({ scrollRef }) => (
       Our Sponsors
     </Content>
 
-    {/* Tier 0/Terra sponsors */}
+    {/* Tier 0/Terra sponsors (XL) */}
      <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://www.huawei.com/ca/"
@@ -69,17 +69,8 @@ const Logos = ({ scrollRef }) => (
         <Image src={huawei} style={{ width: "50%" }} />
       </NavLink>
     </Content> 
-    {/* <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
-      <NavLink
-        href="https://aws.amazon.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image src={aws} style={{ width: "2000px" }} />
-      </NavLink>
-    </Content> */}
 
-    {/* Tier 1/Mega sponsors */}
+    {/* Tier 1/Mega sponsors (L) */}
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://dell.wd1.myworkdayjobs.com/External/job/Remote---Canada-Quebec/Intern-Software-Engineer---Platform-Engineering--Secureworks----100--Remote-Canada-US--Work-From-Home---_R160029"
@@ -89,32 +80,26 @@ const Logos = ({ scrollRef }) => (
         <Image src={secureworks} style={{ width: "40%" }} />
       </NavLink>
     </Content>
-    
+
+    {/* Tier2/kilo sponsors (M) */}
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://briviagroup.ca/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={brivia} style={{ width: "30%" }} />
+        <Image src={brivia} style={{ width: "1000px" }} />
       </NavLink>
-    </Content>
-    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://www.ovhcloud.com/en-ca/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={ovhCloud} style={{ width: "30%" }} />
+        <Image src={ovhCloud} style={{ width: "1000px", paddingTop:"10%" }} />
       </NavLink>
     </Content>
-    
-    {/* <Content style={{ textAlign: "center", justifyContent: "space-around" }}>
-      <NavLink href="https://adgear.com/en/" target="_blank">
-        <Image src={ads} style={{ minWidth: "80%" }} />
-      </NavLink>
-    </Content> */}
-    {/* Tier2/kilo sponsors */}
+
+    {/* Tier 3/Byte sponsors (S) */}
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://www.amazon.ca/"
@@ -142,8 +127,7 @@ const Logos = ({ scrollRef }) => (
       </NavLink>
     </Content>
 
-    {/* Tier 3/Byte sponsors */}
-    {/* Tier 4/In-Kind sponsors */}
+    {/* Tier 4/In-Kind sponsors (XS) */}
     <Content style={{ justifyContent: "space-evenly", alignItems: "center" }}>
     <NavLink
         href="https://www.fdmgroup.com/en-ca/ca-graduates/"
