@@ -62,7 +62,7 @@ const events = [
     location: "Discord",
     startTime: "11:00 PM",
     description:
-      <div>Show off your team's gaming expertise by dominating the leaderboard in a variety of online games. We'll be playing rounds of <a href="https://skribbl.io/"> skribbl.io</a>, GeoGuesser, Set, and more, so come prepared!</div>,
+      <div>Show off your team's gaming expertise by dominating the leaderboard in a variety of online games. We'll be playing rounds of <a href="https://skribbl.io/" target="_blank" rel="noopener noreferrer"> skribbl.io</a>, GeoGuesser, Set, and more, so come prepared!</div>,
   },
   {
     day: 2,
@@ -116,7 +116,7 @@ const events = [
     location: "Zoom",
     startTime: "12:00 PM",
     description:
-      <div>Looking to make a personal website or portfolio but don't know where to start? Join us for this workshop on creating a portfolio with HTML/CSS! You'll learn some basic HTML/CSS from a walkthrough with us on how to create a portfolio webpage that you can push right to deployment or expand on after. Before the workshop, be sure to sign up for <a href="www.glitch.com">Glitch</a> or link it to your Github account.</div>,
+      <div>Looking to make a personal website or portfolio but don't know where to start? Join us for this workshop on creating a portfolio with HTML/CSS! You'll learn some basic HTML/CSS from a walkthrough with us on how to create a portfolio webpage that you can push right to deployment or expand on after. Before the workshop, be sure to sign up for <a href="www.glitch.com" target="_blank" rel="noopener noreferrer">Glitch</a> or link it to your Github account.</div>,
       
   },
   {

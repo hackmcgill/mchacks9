@@ -53,7 +53,7 @@ const Logos = ({ scrollRef }) => (
       style={{
         fontSize: "5rem",
         justifyContent: "center",
-        color: COLORS.colorHackRed,
+        color: COLORS.darkYellow,
       }}
     >
       Our Sponsors
@@ -98,15 +98,15 @@ const Logos = ({ scrollRef }) => (
         <Image src={ovhCloud} style={{ width: "50%" }} />
       </NavLink>
     </Content>
-    {/* <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
+    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://www.huawei.com/ca/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={huawei} style={{ width: "700px" }} />
+        <Image src={huawei} style={{ width: "50%" }} />
       </NavLink>
-    </Content> */}
+    </Content> 
     {/* <Content style={{ textAlign: "center", justifyContent: "space-around" }}>
       <NavLink href="https://adgear.com/en/" target="_blank">
         <Image src={ads} style={{ minWidth: "80%" }} />
@@ -187,6 +187,16 @@ const Logos = ({ scrollRef }) => (
         rel="noopener noreferrer"
       >
         <Image src={frontRowVentures} style={{ width: "100%", maxWidth: "75px" }} />
+      </NavLink>
+      <NavLink
+        href="https://balsamiq.cloud/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src={balsamiq}
+          style={{ width: "100%", maxWidth: "75px" }}
+        />
       </NavLink>
     </Content>
   </Container>
