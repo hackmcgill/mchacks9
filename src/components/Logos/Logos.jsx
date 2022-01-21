@@ -184,6 +184,16 @@ const Logos = ({ scrollRef }) => (
           style={{ width: "100%", maxWidth: "75px" }}
         />
       </NavLink>
+      <NavLink
+        href="https://cloud.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src={googleCloud}
+          style={{ width: "100%", maxWidth: "75px" }}
+        />
+      </NavLink>
     </Content>
   </Container>
 )
