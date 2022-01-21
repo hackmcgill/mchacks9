@@ -79,6 +79,7 @@ const Resources = ({ visible }) => (
       Build your hackathon project with the AI capabilities provided by Huawei Ascend AI Platform!
       Please note that information to access their AI platform and resources will be provided upon request after the Huawei workshop at 9:15pm on Friday.
       Each team will be granted with one free account.
+      <br />
       Link:{" "}
       <a
           href="https://atlas.cmc.ca/"
