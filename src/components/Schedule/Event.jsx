@@ -20,6 +20,7 @@ const Event = ({
   subtitle,
   description,
   prize,
+  company,
 }) => {
   let logo = <div></div>
   if (type === "Workshop") {
@@ -47,12 +48,14 @@ const Event = ({
           {startTime ? (startTime.toLowerCase().includes("am") || startTime.toLowerCase().includes("pm") ? " ET" : "") : "TBD"}
           <br />
           <div className="activityType">{type.toUpperCase()}</div>
+          {company ? <div className="company">{company}</div> : ""}
         </div>
       </div>
       <div className="detail">
         <div className="overview">
           <div className="name">
-            {name}
+            {name} 
+            <br></br>
             <small>{subtitle}</small>
           </div>
           {description ? <div className="description">{description}</div> : ""}
