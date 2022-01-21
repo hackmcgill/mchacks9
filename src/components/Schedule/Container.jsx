@@ -62,6 +62,10 @@ export const Container = styled.section`
       display: flex;
       align-items: center;
 
+      @media all and (max-width: 600px) {
+        padding: 24px 0px 24px 16px;
+      }
+
       .to {
         font-size: 0.85em;
       }
@@ -82,7 +86,9 @@ export const Container = styled.section`
       text-align: left;
       display: flex;
       align-items: center;
-
+      @media all and (max-width: 600px) {
+        padding: 24px 0px 24px 16px;
+      }
       .overview {
         flex: 1;
 
@@ -129,6 +135,10 @@ export const Container = styled.section`
       margin-right: auto;
       margin-top: auto;
       margin-bottom: auto;
+
+      @media all and (max-width: 600px) {
+        padding: 24px 0px 24px 16px;
+      }
     }
 
     .icon > *:before {
