@@ -98,9 +98,6 @@ const Logos = ({ scrollRef }) => (
       >
         <Image src={ovhCloud} style={{ width: "1000px", paddingTop:"10%" }} />
       </NavLink>
-    </Content>
-
-    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://www.railvision.ca/"
         target="_blank"
