@@ -11,7 +11,7 @@ const events = [
     day: 1,
     name: "Hacking Starts",
     type: "Main Event",
-    startTime: "7:00 PM",
+    startTime: "9:00 PM",
   },
   {
     day: 1,
