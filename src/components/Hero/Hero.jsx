@@ -1,15 +1,12 @@
 import React from "react"
-
-import HeroStyles from "./HeroStyles"
-import { ArrowStyles } from "./FloatingStyles"
-
-import Button from "./Button"
-import SignUpForm from "./SignUpForm"
-
-import MountainsImg from "../../assets/images/designs/mountains.svg"
 import GridImg from "../../assets/images/designs/grid.svg"
 import McHacksImg from "../../assets/images/designs/mchacks9-hero-logo.png"
-import ArrowImg from "../../assets/images/designs/arrow.svg"
+import MountainsImg from "../../assets/images/designs/mountains.svg"
+import Button from "./Button"
+import HeroStyles from "./HeroStyles"
+
+
+
 
 /*const apply = () => {
   window.location = "https://app.mchacks.ca/"
