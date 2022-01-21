@@ -3,6 +3,18 @@ import React from "react"
 const events = [
   {
     day: 1,
+    name: "Opening Ceremony",
+    type: "Main Event",
+    startTime: "7:00 PM",
+  },
+  {
+    day: 1,
+    name: "Hacking Starts",
+    type: "Main Event",
+    startTime: "7:00 PM",
+  },
+  {
+    day: 1,
     name: "Getting Started with OVHcloud",
     subtitle: "Booting your first public cloud server from the command line",
     type: "Workshop",
@@ -40,36 +52,6 @@ const events = [
   },
   {
     day: 1,
-    name: "Guessing Games",
-    type: "Game",
-    location: "Discord",
-    startTime: "Release Friday Night",
-    description:
-      "Throughout the hackathon we'll be releasing pictures of jars filled with various objects. Guess the number of items contained within for each post - the team with the most correct guesses will win a fun prize!",
-    prize: "Giftcards ($30 value)",
-  },
-  {
-    day: 2,
-    name: "Guessing Games",
-    type: "Game",
-    location: "Discord",
-    startTime: "Release Friday Night",
-    description:
-      "Throughout the hackathon we'll be releasing pictures of jars filled with various objects. Guess the number of items contained within for each post - the team with the most correct guesses will win a fun prize!",
-    prize: "Giftcards ($30 value)",
-  },
-  {
-    day: 3,
-    name: "Guessing Games",
-    type: "Game",
-    location: "Discord",
-    startTime: "Release Friday Night",
-    description:
-      "Throughout the hackathon we'll be releasing pictures of jars filled with various objects. Guess the number of items contained within for each post - the team with the most correct guesses will win a fun prize!",
-    prize: "Giftcards ($30 value)",
-  },
-  {
-    day: 1,
     name: "Hackathon Tools",
     type: "Workshop",
     location: "Discord",
@@ -93,13 +75,11 @@ const events = [
       <div>Show off your team's gaming expertise by dominating the leaderboard in a variety of online games. We'll be playing rounds of <a href="https://skribbl.io/" target="_blank" rel="noopener noreferrer"> skribbl.io</a>, GeoGuesser, Set, and more, so come prepared!</div>,
   },
   {
-    day: 2,
-    name: "Game Tournament",
-    type: "Game",
-    location: "Discord",
-    startTime: "11:00 PM",
-    description:
-      <div>Show off your team's gaming expertise by dominating the leaderboard in a variety of online games. We'll be playing rounds of <a href="https://skribbl.io/"> skribbl.io</a>, GeoGuesser, Set, and more, so come prepared!</div>,
+    day: 1,
+    name: "Checking-In Form 1 Due",
+    subtitle: "Team Declaration",
+    type: "Main Event",
+    startTime: "Midnight",
   },
   {
     day: 1,
@@ -112,15 +92,6 @@ const events = [
   },
   {
     day: 2,
-    name: "Coffee Hangout",
-    type: "Social",
-    location: "Discord",
-    startTime: "8:00 AM",
-    description:
-      "Kick a long day of hacking off to a good start by joining us at our coffee hangout! Bring your favorite morning beverage for waking up (if you've gotten any sleep that is) and spend some time hanging out with the team and fellow McHacks hackers.",
-  },
-  {
-    day: 3,
     name: "Coffee Hangout",
     type: "Social",
     location: "Discord",
@@ -224,12 +195,28 @@ const events = [
   },
   {
     day: 2,
+    name: "Checking-In Form 2 Due",
+    subtitle: "Project Declaration",
+    type: "Main Event",
+    startTime: "8:00 PM",
+  },
+  {
+    day: 2,
     name: "Typing Races",
     type: "Game",
     location: "Discord",
     startTime: "9:30 PM",
     description:
       "Warm up those fingers, race mode activated. Ready, set, go...",
+  },
+  {
+    day: 2,
+    name: "Game Tournament",
+    type: "Game",
+    location: "Discord",
+    startTime: "11:00 PM",
+    description:
+      <div>Show off your team's gaming expertise by dominating the leaderboard in a variety of online games. We'll be playing rounds of <a href="https://skribbl.io/"> skribbl.io</a>, GeoGuesser, Set, and more, so come prepared!</div>,
   },
   {
     day: 2,
@@ -242,12 +229,70 @@ const events = [
   },
   {
     day: 3,
+    name: "Coffee Hangout",
+    type: "Social",
+    location: "Discord",
+    startTime: "8:00 AM",
+    description:
+      "Kick a long day of hacking off to a good start by joining us at our coffee hangout! Bring your favorite morning beverage for waking up (if you've gotten any sleep that is) and spend some time hanging out with the team and fellow McHacks hackers.",
+  },
+  {
+    day: 3,
+    name: "Hacking Ends",
+    type: "Main Event",
+    startTime: "9:00 AM",
+  },
+  {
+    day: 3,
     name: "Scavenger Hunt",
     type: "Game",
     location: "Discord",
     startTime: "9:30 AM",
     description:
       "Have you been sitting in your chair for a little too long? Get up and participate in a scavenger hunt at the comfort of your own home! The most impressive scavenger hunters will win retro McHacks gear to pick up with their swag.",
+  },
+  {
+    day: 3,
+    name: "Demo",
+    type: "Main Event",
+    startTime: "11:00 AM",
+    endTime: "1:00 PM",
+  },
+  {
+    day: 3,
+    name: "Closing Ceremony",
+    type: "Main Event",
+    startTime: "2:45 PM",
+  },
+  {
+    day: 1,
+    name: "Guessing Games",
+    type: "Game",
+    location: "Discord",
+    startTime: "Release Friday Night",
+    description:
+      "Throughout the hackathon we'll be releasing pictures of jars filled with various objects. Guess the number of items contained within for each post - the team with the most correct guesses will win a fun prize!",
+    prize: "Gift cards ($30 value)",
+  },
+  {
+    day: 2,
+    name: "Guessing Games",
+    type: "Game",
+    location: "Discord",
+    startTime: "Release Friday Night",
+    description:
+      "Throughout the hackathon we'll be releasing pictures of jars filled with various objects. Guess the number of items contained within for each post - the team with the most correct guesses will win a fun prize!",
+    prize: "Gift cards ($30 value)",
+  },
+  {
+    day: 3,
+    name: "Guessing Games",
+    type: "Game",
+    location: "Discord",
+    startTime: "Release Friday Night",
+    description:
+      "Throughout the hackathon we'll be releasing pictures of jars filled with various objects. Guess the number of items contained within for each post - the team with the most correct guesses will win a fun prize!",
+    prize: "Gift cards ($30 value)",
   },
 ]
 
