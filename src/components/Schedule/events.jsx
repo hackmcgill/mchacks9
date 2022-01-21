@@ -9,9 +9,11 @@ const events = [
   },
   {
     day: 1,
-    name: "Hacking Starts",
+    name: "Fireside Chat",
     type: "Main Event",
-    startTime: "9:00 PM",
+    startTime: "8:00 PM",
+    description:
+      "Come join us on this Fireside chat featuring panelists from Huawei and Secureworks! Learn all about their stories and background, what passionates them, personal insights on current trends, and more on this casual panel discussion hosted by hackboard moderators. Featuring a live Q&A at the end where you can ask questions to them directly!"
   },
   {
     day: 1,
@@ -30,6 +32,12 @@ const events = [
         This will allow you to understand how to host your project on OVHCloud's Public Cloud service
       </div>,
     company: "OVHCloud",
+  },
+  {
+    day: 1,
+    name: "Hacking Starts",
+    type: "Main Event",
+    startTime: "9:00 PM",
   },
   {
     day: 1,
