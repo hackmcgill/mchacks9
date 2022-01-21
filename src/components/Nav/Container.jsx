@@ -2,7 +2,7 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const Container = styled.nav`
-  z-index: 200;
+  z-index: 2;
   height: 9rem;
   background-color: transparent;
   position: fixed;
