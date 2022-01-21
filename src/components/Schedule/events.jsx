@@ -61,7 +61,7 @@ const events = [
         <ol>
           <li> Timeline of a Hackathon </li>
           <li> Collaborating via GitHub</li>
-          <li> Hosting a Website</li>
+          <li> Newbie Hacker Resource Tour</li>
         </ol>
       </div>,
   },
