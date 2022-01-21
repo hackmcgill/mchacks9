@@ -62,7 +62,7 @@ export const Container = styled.section`
       display: flex;
       align-items: center;
 
-      @media all and (max-width: 600px) {
+      @media all and (max-width: ${styleVars.smUp}) {
         padding: 24px 0px 24px 16px;
       }
 
@@ -86,7 +86,7 @@ export const Container = styled.section`
       text-align: left;
       display: flex;
       align-items: center;
-      @media all and (max-width: 600px) {
+      @media all and (max-width: ${styleVars.smUp}) {
         padding: 24px 0px 24px 16px;
       }
       .overview {
@@ -136,7 +136,7 @@ export const Container = styled.section`
       margin-top: auto;
       margin-bottom: auto;
 
-      @media all and (max-width: 600px) {
+      @media all and (max-width: ${styleVars.smUp}) {
         padding: 24px 0px 24px 16px;
       }
     }
