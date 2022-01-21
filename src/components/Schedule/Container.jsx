@@ -69,6 +69,10 @@ export const Container = styled.section`
       .type {
         color: ${styleVars.colorHackRed};
       }
+      
+      .company {
+        color: ${styleVars.yellow};
+      }
     }
 
     .detail {

@@ -3,12 +3,40 @@ import React from "react"
 const events = [
   {
     day: 1,
+    name: "Getting Started with OVHcloud",
+    subtitle: "Booting your first public cloud server from the command line",
+    type: "Workshop",
+    location: "Zoom",
+    startTime: "8:45 PM",
+    description:
+      <div> In this live demo workshop our SRE team lead for public cloud Charles Vaillancourt will be showing you how to
+        <ul>
+          <li>Configure and install the openstack client</li>
+          <li>Understand the core commands of the openstack client</li>
+          <li>Create your first server from the command line</li>
+        </ul>
+        This will allow you to understand how to host your project on OVHCloud's Public Cloud service
+      </div>,
+    company: "OVHCloud",
+  },
+  {
+    day: 1,
     name: "Team Making",
     type: "Main Event",
     location: "Discord/Google Slides",
     startTime: "9:00 PM",
     description:
       "For any hackers coming in solo, or teams missing just a few members, we'll be starting team formations soon after the opening ceremony. If you haven't found a team yet, introduce yourself in the team-formation discord channel or add a slide to the team formation slide deck.",
+  },
+  {
+    day: 1,
+    name: "Huawei Ascend AI Workshop",
+    type: "Workshop",
+    location: "Zoom",
+    startTime: "9:15 PM",
+    description:
+      "This workshop will rump you up for the challenge of \"Best Use of Huawei Ascend AI Platform\". It includes: introduction to the challenge, how to select a topic, how to find the datasets and algorithms, and a quick-start guide on Ascend AI platform (MindSpore + CANN).",
+    company: "Huawei",
   },
   {
     day: 1,
@@ -71,7 +99,7 @@ const events = [
     location: "Discord",
     startTime: "11:00 PM",
     description:
-      "Show off your team's gaming expertise by dominating the leaderboard in a variety of online games. We'll be playing rounds of scribbl.io, GeoGuesser, Set, and more, so come prepared!",
+      <div>Show off your team's gaming expertise by dominating the leaderboard in a variety of online games. We'll be playing rounds of <a href="https://skribbl.io/"> skribbl.io</a>, GeoGuesser, Set, and more, so come prepared!</div>,
   },
   {
     day: 1,
@@ -102,6 +130,16 @@ const events = [
   },
   {
     day: 2,
+    name: "Digging for Gold in Network Data Using Machine Learning",
+    type: "Workshop",
+    location: "Zoom",
+    startTime: "9:00 AM",
+    description:
+      "Batea is a simple tool that showcases how basic machine learning can help security analysts in their day-to-day operations. The goal of Batea is to allow security teams to automatically filter interesting network devices in large networks using nmap scan reports. We call those Gold Nuggets. Batea outputs the gold nuggets in order of interest for an attacker given the context of the network. In this workshop, you will learn how Batea works and how we can extend its functionality.",
+    company: "Secureworks",
+  },
+  {
+    day: 2,
     name: "Game-Making with Python",
     type: "Workshop",
     location: "Zoom",
@@ -117,7 +155,26 @@ const events = [
     startTime: "12:00 PM",
     description:
       <div>Looking to make a personal website or portfolio but don't know where to start? Join us for this workshop on creating a portfolio with HTML/CSS! You'll learn some basic HTML/CSS from a walkthrough with us on how to create a portfolio webpage that you can push right to deployment or expand on after. Before the workshop, be sure to sign up for <a href="www.glitch.com" target="_blank" rel="noopener noreferrer">Glitch</a> or link it to your Github account.</div>,
-      
+  },
+  {
+    day: 2,
+    name: "Link Apartments by Brivia Group Workshop",
+    type: "Workshop",
+    location: "Zoom",
+    startTime: "1:00 PM",
+    description:
+      "Are you interested in living at LINK Apartments? Come listen to Yaniv, our representative for LINK, to know anything about LINK and its all-inclusive advantages!",
+    company: "Brivia",
+  },
+  {
+    day: 2,
+    name: "Navigating the Startup Ecosystem as a Student",
+    type: "Workshop",
+    location: "Zoom",
+    startTime: "1:30 PM",
+    description:
+      "Geared towards students who are at the very early stages of working on a project, this presentation discusses what VC is, the different sources of financing for startups, what it means to be VC Backable, and how to raise funds for your startup as a student.",
+    company: "FrontRow Ventures",
   },
   {
     day: 2,
