@@ -111,6 +111,16 @@ const events = [
   },
   {
     day: 2,
+    name: "Sponsorship Booths",
+    type: "Workshop",
+    location: "Discord",
+    startTime: "10:00 AM",
+    endTime:"12:00 PM",
+    description:
+      "This is your time to mingle with sponsors! All sponsors will be in their channels while some mentors will be in mentor text channels. If you want to learn more about sponsor challenges, talk to recruiters, and more, leave this slot open in your schedule!"
+  },
+  {
+    day: 2,
     name: "Game-Making with Python",
     type: "Workshop",
     location: "Zoom",
@@ -149,12 +159,22 @@ const events = [
   },
   {
     day: 2,
+    name: "Speed networking",
+    type: "Workshop",
+    location: "Zoom",
+    startTime: "2:00 PM",
+    endTime:"4:00 PM",
+    description:
+      "Looking to connect with recruiters, curious about what positions are open, or want to show your resume? Then speed networking is for you! All details, including zoom links and sign up form, can be found in the #speed-networking channel. Don’t miss out on this great opportunity!"
+  },
+  {
+    day: 2,
     name: "Introduction to Design",
     type: "Workshop",
     location: "Zoom",
     startTime: "4:00 PM",
     description:
-      "Have a passion for graphic design? Come to our beginner-friendly workshop introducing the basics of designing graphics. You'll have the chance to learn how to use Figma, one of the most important digital design and prototyping tools.",
+      "Have a passion for design? Come to our beginner-friendly workshop introducing the basics of designing graphics and user interfaces. You'll have the chance to learn how to use Figma, one of the most important digital design and prototyping tools.",
   },
   {
     day: 2,
@@ -262,7 +282,7 @@ const events = [
     day: 3,
     name: "Closing Ceremony",
     type: "Main Event",
-    startTime: "2:45 PM",
+    startTime: "2:30 PM",
   },
   {
     day: 1,
