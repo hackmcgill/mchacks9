@@ -9,6 +9,9 @@ import FAQ from "../components/FAQ/FAQ"
 import Logos from "../components/Logos/Logos"
 import Footer from "../components/Footer/Footer"
 import EventInfo from "../components/EventInfo/EventInfo"
+import Speakers from "../components/Speakers/Speaker"
+import Recruiters from "../components/RecruitersAndJudges/Recruiters"
+import MentorsAndJudges from "../components/RecruitersAndJudges/MentorsAndJudges"
 
 const scrollTo = ref => {
   if (!ref || !ref.current) {
@@ -35,6 +38,9 @@ const IndexPage = () => {
       <EventInfo />
       <Sponsor scrollRef={sponsorRef} />
       <FAQ scrollRef={faqRef} />
+      <Speakers/>
+      <Recruiters/>
+      <MentorsAndJudges/>
       <Logos />
       <Footer />
     </div>
