@@ -129,6 +129,16 @@ const events = [
   },
   {
     day: 2,
+    name: "Getting Started With Twilio",
+    type: "Workshop",
+    location: "Zoom",
+    startTime: "12:00 PM",
+    description:
+      "Learn how to navigate Twilio’s API and design system! If you are interested in using Twilio’s resources and would like more information, this workshop is for you!",
+    company: "Twilio"
+  },
+  {
+    day: 2,
     name: "Link Apartments by Brivia Group Workshop",
     type: "Workshop",
     location: "Zoom",
