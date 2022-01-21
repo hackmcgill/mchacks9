@@ -82,16 +82,6 @@ const Logos = ({ scrollRef }) => (
       </NavLink>
     </Content>
 
-    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
-      <NavLink
-        href="https://www.railvision.ca/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image src={railvision} style={{ width: "40%" }} />
-      </NavLink>
-    </Content>
-
     {/* Tier2/kilo sponsors (M) */}
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
@@ -107,6 +97,16 @@ const Logos = ({ scrollRef }) => (
         rel="noopener noreferrer"
       >
         <Image src={ovhCloud} style={{ width: "1000px", paddingTop:"10%" }} />
+      </NavLink>
+    </Content>
+
+    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
+      <NavLink
+        href="https://www.railvision.ca/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={railvision} style={{ width: "1000px" }} />
       </NavLink>
     </Content>
 
