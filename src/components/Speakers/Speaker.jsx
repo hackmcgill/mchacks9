@@ -5,7 +5,7 @@ import IndividualSpeaker from "./IndividualSpeaker";
 
 // Company Logo
 import ovhCloud from "../../assets/images/sponsor/OVHcloud.png";
-import Brivia from "../../assets/images/sponsor/Brivia.jpg"
+import Brivia from "../../assets/images/sponsor/brivia.jpg"
 import FrontRowVentures from "../../assets/images/sponsor/frontRowVenturesLogo.png"
 import Secureworks from "../../assets/images/sponsor/secureworksLogo.png";
 import huawei from "../../assets/images/sponsor/new/Huawei_678x452.png"

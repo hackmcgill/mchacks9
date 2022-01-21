@@ -17,6 +17,7 @@ const RadioAvatar = ({image}) => {
                             top: "0",
                             left: "0",
                             }} 
+                            alt=""
                     src = {speakerBorder}/>
                 <img style={{width:"303px",
                             position: "absolute",
@@ -25,6 +26,7 @@ const RadioAvatar = ({image}) => {
                             zIndex:"1",
                             borderRadius: "50%"
                             }} 
+                            alt=""
                     src={image}/>
                 <img style={{width:"380px",
                             position: "absolute",
@@ -32,6 +34,7 @@ const RadioAvatar = ({image}) => {
                             left: "-32px",
                             zIndex: "2"
                             }} 
+                            alt=""
                     src={radio}/>
             </Avatar>
     )
