@@ -27,7 +27,7 @@ const Resources = ({ visible }) => (
           here
         </a>.
       <br/>
-      Voucher Code (value of $100 CAD each): OVHcloud-McHacks
+      Voucher Code: OVHcloud-McHacks2
     </Question>
 
     <Question question="Balsamiq">
