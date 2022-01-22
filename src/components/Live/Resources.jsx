@@ -9,18 +9,23 @@ const Resources = ({ visible }) => (
     <h2>Sponsor Resources</h2>
     <QuestionGroup>
     <Question question="OVHCloud">
-    Create your first OVHcloud public cloud project! 
-    Learn how to create your first Public Cloud project via the OVHcloud Control Panel.
-      <br />
-      Learn more {" "}
+    Create your first OVHcloud public cloud project! Learn how to create your first Public Cloud project via the OVHcloud Control Panel.
+      Learn more{" "}
       <a
           href="https://docs.ovh.com/gb/en/public-cloud/create_a_public_cloud_project/"
           target="_blank"
           rel="noopener noreferrer"
         >
           here
-        </a>
-        .
+        </a>.
+        For step-by-step instructions, click{" "}
+        <a
+          href="https://www.youtube.com/watch?v=vQA5KJLC8f4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>.
       <br/>
       Voucher Code: OVHcloud-McHacks2
     </Question>
