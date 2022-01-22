@@ -9,9 +9,11 @@ const events = [
   },
   {
     day: 1,
-    name: "Hacking Starts",
+    name: "Fireside Chat",
     type: "Main Event",
-    startTime: "9:00 PM",
+    startTime: "8:00 PM",
+    description:
+      "Come join us on this Fireside chat featuring panelists from Huawei and Secureworks! Learn all about their stories and background, what passionates them, personal insights on current trends, and more on this casual panel discussion hosted by hackboard moderators. Featuring a live Q&A at the end where you can ask questions to them directly!"
   },
   {
     day: 1,
@@ -30,6 +32,12 @@ const events = [
         This will allow you to understand how to host your project on OVHCloud's Public Cloud service
       </div>,
     company: "OVHCloud",
+  },
+  {
+    day: 1,
+    name: "Hacking Starts",
+    type: "Main Event",
+    startTime: "9:00 PM",
   },
   {
     day: 1,
@@ -135,7 +143,17 @@ const events = [
     location: "Zoom",
     startTime: "12:00 PM",
     description:
-      <div>Looking to make a personal website or portfolio but don't know where to start? Join us for this workshop on creating a portfolio with HTML/CSS! You'll learn some basic HTML/CSS from a walkthrough with us on how to create a portfolio webpage that you can push right to deployment or expand on after. Before the workshop, be sure to sign up for <a href="www.glitch.com" target="_blank" rel="noopener noreferrer">Glitch</a> or link it to your Github account.</div>,
+      <div>Looking to make a personal website or portfolio but don't know where to start? Join us for this workshop on creating a portfolio with HTML/CSS! You'll learn some basic HTML/CSS from a walkthrough with us on how to create a portfolio webpage that you can push right to deployment or expand on after. Before the workshop, be sure to sign up for <a href="https://glitch.com/" target="_blank" rel="noopener noreferrer">Glitch</a> or link it to your Github account.</div>,
+  },
+  {
+    day: 2,
+    name: "Getting Started With Twilio",
+    type: "Workshop",
+    location: "Zoom",
+    startTime: "12:00 PM",
+    description:
+      "Learn how to navigate Twilio’s API and design system! If you are interested in using Twilio’s resources and would like more information, this workshop is for you!",
+    company: "Twilio"
   },
   {
     day: 2,

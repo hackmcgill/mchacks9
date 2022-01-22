@@ -46,6 +46,7 @@ import novartis from "../../assets/images/sponsor/new/Novartis.png"
 import ovhCloud from "../../assets/images/sponsor/OVHcloud.png"
 import secureworks from "../../assets/images/sponsor/secureworksLogo.png"
 import frontRowVentures from "../../assets/images/sponsor/frontRowVenturesLogo.png"
+import railvision from "../../assets/images/sponsor/railvision.png"
 
 const Logos = ({ scrollRef }) => (
   <Container ref={scrollRef}>
@@ -96,6 +97,13 @@ const Logos = ({ scrollRef }) => (
         rel="noopener noreferrer"
       >
         <Image src={ovhCloud} style={{ width: "1000px", paddingTop:"10%" }} />
+      </NavLink>
+      <NavLink
+        href="https://www.railvision.ca/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={railvision} style={{ width: "1000px" }} />
       </NavLink>
     </Content>
 
@@ -181,6 +189,16 @@ const Logos = ({ scrollRef }) => (
       >
         <Image
           src={balsamiq}
+          style={{ width: "100%", maxWidth: "75px" }}
+        />
+      </NavLink>
+      <NavLink
+        href="https://cloud.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src={googleCloud}
           style={{ width: "100%", maxWidth: "75px" }}
         />
       </NavLink>
