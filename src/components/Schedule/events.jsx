@@ -135,7 +135,7 @@ const events = [
     location: "Zoom",
     startTime: "12:00 PM",
     description:
-      <div>Looking to make a personal website or portfolio but don't know where to start? Join us for this workshop on creating a portfolio with HTML/CSS! You'll learn some basic HTML/CSS from a walkthrough with us on how to create a portfolio webpage that you can push right to deployment or expand on after. Before the workshop, be sure to sign up for <a href="www.glitch.com" target="_blank" rel="noopener noreferrer">Glitch</a> or link it to your Github account.</div>,
+      <div>Looking to make a personal website or portfolio but don't know where to start? Join us for this workshop on creating a portfolio with HTML/CSS! You'll learn some basic HTML/CSS from a walkthrough with us on how to create a portfolio webpage that you can push right to deployment or expand on after. Before the workshop, be sure to sign up for <a href="https://glitch.com/" target="_blank" rel="noopener noreferrer">Glitch</a> or link it to your Github account.</div>,
   },
   {
     day: 2,
