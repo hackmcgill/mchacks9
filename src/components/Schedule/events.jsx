@@ -196,6 +196,17 @@ const events = [
   },
   {
     day: 2,
+    name: "Founding a Startup at McGill",
+    subtitle: "Q&A with the CEO of RailVision",
+    type: "Workshop",
+    location: "Zoom",
+    startTime: "5:00 PM",
+    description:
+      "Interested in developing a startup, but not sure where to start? Come talk to Dev and Mazhar from RailVision! From winners of McGill’s own Dobson cup to now having received millions of dollars in funding, the RailVision team can answer all your questions regarding building a startup from the ground up, here at McGill!",
+    company: "RailVision",
+  },
+  {
+    day: 2,
     name: "Mug Cakes",
     type: "Social",
     location: "Discord",
