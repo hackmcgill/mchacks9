@@ -157,16 +157,6 @@ const events = [
   },
   {
     day: 2,
-    name: "Link Apartments by Brivia Group Workshop",
-    type: "Workshop",
-    location: "Zoom",
-    startTime: "1:00 PM",
-    description:
-      "Are you interested in living at LINK Apartments? Come listen to Yaniv, our representative for LINK, to know anything about LINK and its all-inclusive advantages!",
-    company: "Brivia",
-  },
-  {
-    day: 2,
     name: "Navigating the Startup Ecosystem as a Student",
     type: "Workshop",
     location: "Zoom",

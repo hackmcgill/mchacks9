@@ -11,7 +11,6 @@ import Secureworks from "../../assets/images/sponsor/secureworksLogo.png";
 import huawei from "../../assets/images/sponsor/new/Huawei_678x452.png"
 
 // Speakers
-import YanivTordjman from "../../assets/images/headshots/YanivTordjman.jpg";
 import JasonWang from "../../assets/images/headshots/Jason Wang - Yiheng Wang.jpg";
 import MaksimBober from "../../assets/images/headshots/MaksimBober.jpeg";
 import CharlesVaillancourt from "../../assets/images/headshots/CharlesVaillencourt.png";
@@ -51,9 +50,6 @@ const Speakers = ({ scrollRef }) => (
                                Focussing mostly on cloud technologies with a strong inclination towards automation 
                                he is currently an SRE team lead for public cloud products. `}
                                />  
-            <IndividualSpeaker image={YanivTordjman} companyLogo={Brivia}
-                               name="Yaniv Tordjman" 
-                               description = {`Presenter of Link Apartments workshop.`}/>
 
             <IndividualSpeaker image={JasonWang} companyLogo={FrontRowVentures}
                                name="Jason Wang"  position="Investment Associate"
